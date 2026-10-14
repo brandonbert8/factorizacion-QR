@@ -1,0 +1,255 @@
+- generic [ref=f14e2]:
+  - list [ref=f14e10]:
+    - listitem [ref=f14e11]:
+      - link [ref=f14e13] [cursor=pointer]:
+        - /url: http://localhost:8501/
+        - paragraph [ref=f14e16]: app
+    - listitem [ref=f14e17]:
+      - link [ref=f14e19] [cursor=pointer]:
+        - /url: http://localhost:8501/regresion_qr
+        - paragraph [ref=f14e22]: regresion qr
+    - listitem [ref=f14e23]:
+      - link [ref=f14e25] [cursor=pointer]:
+        - /url: http://localhost:8501/estabilidad_numerica
+        - paragraph [ref=f14e28]: estabilidad numerica
+    - listitem [ref=f14e29]:
+      - link [ref=f14e31] [cursor=pointer]:
+        - /url: http://localhost:8501/trayectoria_proyectil
+        - paragraph [ref=f14e34]: trayectoria proyectil
+  - generic [ref=f14e3]:
+    - banner [ref=f14e38]:
+      - generic [ref=f14e41]:
+        - button "Deploy" [ref=f14e43] [cursor=pointer]
+        - button "Main menu" [ref=f14e47] [cursor=pointer]
+    - generic [ref=f14e51]:
+      - generic [ref=f14e52]: Laboratorio 02 · Condicionamiento
+      - heading "Estabilidad numérica" [level=1] [ref=f14e61]:
+        - text: Estabilidad numérica
+        - generic [ref=f14e62]:
+          - link "Link to heading":
+            - /url: "#estabilidad-numerica"
+      - paragraph [ref=f14e67]: Dos columnas casi iguales pueden amplificar un ruido diminuto en la solución.
+      - generic [ref=f14e69]:
+        - button [disabled] [ref=f14e74]:
+          - generic "Resolver con QR →" [ref=f14e75]:
+            - paragraph [ref=f14e79]: Resolver con QR →
+        - button [ref=f14e85] [cursor=pointer]:
+          - generic [ref=f14e86]:
+            - generic "Apariencia y movimiento" [ref=f14e87]:
+              - paragraph [ref=f14e91]: Apariencia y movimiento
+            - generic [ref=f14e93]: expand_more
+      - generic [ref=f14e96]:
+        - paragraph [ref=f14e99]: Escena 4 de 5 · Resolución con QR
+        - progressbar "progress" [ref=f14e100]
+      - generic [ref=f14e104]:
+        - button [ref=f14e109] [cursor=pointer]:
+          - generic "← Anterior" [ref=f14e110]:
+            - paragraph [ref=f14e114]: ← Anterior
+        - generic [ref=f14e115]: Resolución con QR
+        - button [ref=f14e126] [cursor=pointer]:
+          - generic "Siguiente →" [ref=f14e127]:
+            - paragraph [ref=f14e131]: Siguiente →
+        - button [ref=f14e137] [cursor=pointer]:
+          - generic [ref=f14e138]:
+            - generic "Guion" [ref=f14e139]:
+              - paragraph [ref=f14e143]: Guion
+            - generic [ref=f14e145]: expand_more
+      - generic [ref=f14e148]:
+        - paragraph [ref=f14e152]: Método QR para observar
+        - group [ref=f14e154]:
+          - combobox "Método QR para observar" [ref=f14e155]: Householder
+          - button "Open" [ref=f14e156] [cursor=pointer]
+      - paragraph [ref=f14e164]: "La animación enseña lo que hace el método elegido en esta matriz concreta. Revisa después la ortogonalidad y el error de solución: responden preguntas distintas."
+      - generic [ref=f14e166]:
+        - generic [ref=f14e168]:
+          - button [disabled] [ref=f14e173]:
+            - generic "← Paso" [ref=f14e174]:
+              - paragraph [ref=f14e178]: ← Paso
+          - button [ref=f14e183] [cursor=pointer]:
+            - generic "▶ Reproducir" [ref=f14e184]:
+              - paragraph [ref=f14e188]: ▶ Reproducir
+          - button [ref=f14e193] [cursor=pointer]:
+            - generic "Paso →" [ref=f14e194]:
+              - paragraph [ref=f14e198]: Paso →
+          - button [ref=f14e203] [cursor=pointer]:
+            - generic "Reiniciar" [ref=f14e204]:
+              - paragraph [ref=f14e208]: Reiniciar
+        - generic [ref=f14e211]:
+          - paragraph [ref=f14e215]: Recorrer la resolución completa
+          - group "Recorrer la resolución completa" [ref=f14e216]:
+            - generic [ref=f14e217]:
+              - generic [ref=f14e218]:
+                - slider "Recorrer la resolución completa Recorrer la resolución completa" [ref=f14e220]: "0"
+                - generic:
+                  - generic:
+                    - paragraph: "0"
+              - generic:
+                - generic:
+                  - paragraph: "0"
+                - generic:
+                  - paragraph: "8"
+        - generic [ref=f14e222]:
+          - paragraph [ref=f14e225]: Householder · Construir Q y R · operación 1 de 9
+          - progressbar "progress" [ref=f14e226]
+        - heading "Householder · construir el espejo H1" [level=3] [ref=f14e233]:
+          - text: Householder · construir el espejo H1
+          - generic [ref=f14e234]:
+            - link "Link to heading":
+              - /url: "#householder-construir-el-espejo-h1"
+        - paragraph [ref=f14e239]: Elegimos un espejo cuya normal es v. Ese reflector lleva la subcolumna x al eje de la primera componente.
+        - generic [ref=f14e245]:
+          - math [ref=f14e247]:
+            - generic [ref=f14e249]:
+              - generic [ref=f14e250]: α
+              - generic [ref=f14e251]: =
+              - generic [ref=f14e252]: −
+              - generic [ref=f14e253]: "1.7321"
+              - generic [ref=f14e254]: ","
+              - generic [ref=f14e255]: v
+              - generic [ref=f14e256]: =
+              - generic [ref=f14e257]:
+                - generic [ref=f14e258]:
+                  - generic [ref=f14e259]: x
+                  - generic [ref=f14e260]: −
+                  - generic [ref=f14e261]: α
+                  - generic [ref=f14e262]:
+                    - generic [ref=f14e263]: e
+                    - generic [ref=f14e264]: "1"
+                - generic [ref=f14e265]:
+                  - generic [ref=f14e266]: ∥
+                  - generic [ref=f14e267]: x
+                  - generic [ref=f14e268]: −
+                  - generic [ref=f14e269]: α
+                  - generic [ref=f14e270]:
+                    - generic [ref=f14e271]: e
+                    - generic [ref=f14e272]: "1"
+                  - generic [ref=f14e273]:
+                    - generic [ref=f14e274]: ∥
+                    - generic [ref=f14e275]: "2"
+              - generic [ref=f14e276]: =
+              - generic [ref=f14e277]:
+                - generic [ref=f14e278]: "["
+                - generic [ref=f14e279]:
+                  - generic [ref=f14e280]: "0.88807"
+                  - generic [ref=f14e284]: "0.32506"
+                  - generic [ref=f14e288]: "0.32506"
+                - generic [ref=f14e292]: "]"
+              - generic [ref=f14e293]: ","
+              - generic [ref=f14e294]: H
+              - generic [ref=f14e295]: =
+              - generic [ref=f14e296]: I
+              - generic [ref=f14e297]: −
+              - generic [ref=f14e298]: "2"
+              - generic [ref=f14e299]: v
+              - generic [ref=f14e300]:
+                - generic [ref=f14e301]: v
+                - generic [ref=f14e302]: T
+          - generic [aria-hidden] [ref=f14e303]:
+            - generic [ref=f14e304]: α =
+            - generic [ref=f14e305]: −1.7321, v =
+            - generic [ref=f14e306]:
+              - generic [ref=f14e311]:
+                - generic [ref=f14e312]:
+                  - text: ∥x − α
+                  - generic [ref=f14e313]:
+                    - text: e
+                    - generic [ref=f14e314]: "1"
+                  - generic [ref=f14e322]:
+                    - text: ∥
+                    - generic [ref=f14e323]: "2"
+                - generic [ref=f14e332]:
+                  - text: x − α
+                  - generic [ref=f14e333]:
+                    - text: e
+                    - generic [ref=f14e334]: "1"
+              - text: =
+            - generic [ref=f14e345]:
+              - generic [ref=f14e363]:
+                - generic [ref=f14e364]: "0.88807"
+                - generic [ref=f14e365]: "0.32506"
+                - generic [ref=f14e366]: "0.32506"
+              - text: ", H ="
+            - generic [ref=f14e381]: I −
+            - generic [ref=f14e382]:
+              - text: 2v
+              - generic [ref=f14e383]:
+                - text: v
+                - generic [ref=f14e384]: T
+        - figure "Householder · construir el espejo H1. Elegimos un espejo cuya normal es v. Ese reflector lleva la subcolumna x al eje de la primera componente." [ref=f14e391]:
+          - generic [ref=f14e394]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: −4
+                    - generic: −2
+                    - generic: "0"
+                    - generic: "2"
+                    - generic: "4"
+                  - generic:
+                    - generic: −2
+                    - generic: −1
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "2"
+            - img:
+              - generic:
+                - generic [ref=f14e411]:
+                  - generic [ref=f14e412]:
+                    - generic [ref=f14e413]: Antes
+                    - generic [ref=f14e418] [cursor=pointer]
+                  - generic [ref=f14e419]:
+                    - generic [ref=f14e420]: Resultado en construcción
+                    - generic [ref=f14e425] [cursor=pointer]
+                  - generic [ref=f14e426]:
+                    - generic [ref=f14e427]: Espejo H
+                    - generic [ref=f14e428] [cursor=pointer]
+                  - generic [ref=f14e429]:
+                    - generic [ref=f14e430]: Normal v del espejo (dirección)
+                    - generic [ref=f14e435] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic: "Estado: 0%"
+                    - generic:
+                      - generic: 0%
+                      - generic: 6%
+                      - generic: 13%
+                      - generic: 20%
+                      - generic: 27%
+                      - generic: 34%
+                      - generic: 41%
+                      - generic: 48%
+                      - generic: 55%
+                      - generic: 62%
+                      - generic: 68%
+                      - generic: 75%
+                      - generic: 82%
+                      - generic: 89%
+                      - generic: 96%
+                - generic: Coordenada 1 en el plano activo
+                - generic: Coordenada 2
+              - generic [ref=f14e438] [cursor=pointer]:
+                - generic [ref=f14e439]: ▶ Animar operación
+                - generic [ref=f14e442]: Pausar
+            - toolbar [ref=f14e445]:
+              - button "Download plot as a PNG" [ref=f14e447] [cursor=pointer]
+              - generic [ref=f14e450]:
+                - button "Zoom" [ref=f14e451] [cursor=pointer]
+                - button "Pan" [ref=f14e454] [cursor=pointer]
+              - generic [ref=f14e457]:
+                - button "Zoom in" [ref=f14e458] [cursor=pointer]
+                - button "Zoom out" [ref=f14e461] [cursor=pointer]
+                - button "Autoscale" [ref=f14e464] [cursor=pointer]
+                - button "Reset axes" [ref=f14e467] [cursor=pointer]
+              - button "Fullscreen" [ref=f14e471] [cursor=pointer]
+        - paragraph [ref=f14e478]: "Los vectores se dibujan en su propio plano mediante coordenadas ortonormales: se conservan longitudes y ángulos. La transición muestra gradualmente la operación; los extremos son los valores calculados."
+        - group [ref=f14e481]:
+          - generic "keyboard_arrow_right Consultar todos los valores de esta operación" [ref=f14e482] [cursor=pointer]:
+            - generic [ref=f14e483]:
+              - generic [ref=f14e484]: keyboard_arrow_right
+              - paragraph [ref=f14e488]: Consultar todos los valores de esta operación
+        - group [ref=f14e491]:
+          - generic "keyboard_arrow_right Comprobar Q, R y el sistema triangular" [ref=f14e492] [cursor=pointer]:
+            - generic [ref=f14e493]:
+              - generic [ref=f14e494]: keyboard_arrow_right
+              - paragraph [ref=f14e498]: Comprobar Q, R y el sistema triangular

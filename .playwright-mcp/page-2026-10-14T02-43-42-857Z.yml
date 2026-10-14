@@ -1,0 +1,148 @@
+- generic [ref=f8e2]:
+  - generic [ref=f8e6]:
+    - generic:
+      - list:
+        - listitem:
+          - link [ref=f8e7] [cursor=pointer]:
+            - /url: http://localhost:8501/
+            - paragraph [ref=f8e8]: app
+        - listitem:
+          - link [ref=f8e9] [cursor=pointer]:
+            - /url: http://localhost:8501/regresion_qr
+            - paragraph [ref=f8e10]: regresion qr
+        - listitem:
+          - link [ref=f8e11] [cursor=pointer]:
+            - /url: http://localhost:8501/estabilidad_numerica
+            - paragraph [ref=f8e12]: estabilidad numerica
+        - listitem:
+          - link [ref=f8e13] [cursor=pointer]:
+            - /url: http://localhost:8501/trayectoria_proyectil
+            - paragraph [ref=f8e14]: trayectoria proyectil
+  - generic [ref=f8e3]:
+    - banner [ref=f8e17]:
+      - generic [ref=f8e19]:
+        - button "keyboard_double_arrow_right" [ref=f8e22] [cursor=pointer]
+        - generic [ref=f8e25]:
+          - button "Deploy" [ref=f8e27] [cursor=pointer]
+          - button "Main menu" [ref=f8e31] [cursor=pointer]
+    - generic [ref=f8e35]:
+      - generic [ref=f8e36]: Laboratorio 01 · Mínimos cuadrados
+      - heading "Regresión inmobiliaria" [level=1] [ref=f8e45]:
+        - text: Regresión inmobiliaria
+        - generic [ref=f8e46]:
+          - link "Link to heading":
+            - /url: "#regresion-inmobiliaria"
+      - paragraph [ref=f8e51]: "De puntos medidos a un precio estimado: sigue cómo QR construye el modelo."
+      - generic [ref=f8e53]:
+        - radiogroup "Vista" [ref=f8e58]:
+          - radio [checked] [ref=f8e59] [cursor=pointer]:
+            - paragraph [ref=f8e64]: Presentar
+          - radio [ref=f8e65] [cursor=pointer]:
+            - paragraph [ref=f8e70]: Explorar
+        - button [ref=f8e76] [cursor=pointer]:
+          - generic [ref=f8e77]:
+            - generic "Opciones" [ref=f8e78]:
+              - paragraph [ref=f8e82]: Opciones
+            - generic [ref=f8e84]: expand_more
+      - generic [ref=f8e87]:
+        - paragraph [ref=f8e90]: Escena 3 de 5 · Experimento
+        - progressbar "progress" [ref=f8e91]
+      - generic [ref=f8e95]:
+        - button [ref=f8e100] [cursor=pointer]:
+          - generic "← Anterior" [ref=f8e101]:
+            - paragraph [ref=f8e105]: ← Anterior
+        - generic [ref=f8e106]: Experimento
+        - button [active] [ref=f8e117] [cursor=pointer]:
+          - generic "Siguiente →" [ref=f8e118]:
+            - paragraph [ref=f8e122]: Siguiente →
+        - button [ref=f8e128] [cursor=pointer]:
+          - generic [ref=f8e129]:
+            - generic "Guion" [ref=f8e130]:
+              - paragraph [ref=f8e134]: Guion
+            - generic [ref=f8e136]: expand_more
+      - generic [ref=f8e221]:
+        - generic [ref=f8e226]:
+          - paragraph [ref=f8e230]: Ruido de precios (Bs)
+          - group "Ruido de precios (Bs)" [ref=f8e231]:
+            - generic [ref=f8e232]:
+              - generic [ref=f8e233]:
+                - slider "Ruido de precios (Bs) Ruido de precios (Bs)" [ref=f8e235]: "25000"
+                - generic:
+                  - generic:
+                    - paragraph: "25000"
+              - generic:
+                - generic:
+                  - paragraph: "0"
+                - generic:
+                  - paragraph: "120000"
+        - generic [ref=f8e239]:
+          - paragraph [ref=f8e243]: Modelo
+          - radiogroup "Modelo" [ref=f8e244]:
+            - generic [ref=f8e246] [cursor=pointer]:
+              - radio "Lineal" [checked] [ref=f8e248]
+              - paragraph [ref=f8e253]: Lineal
+            - generic [ref=f8e255] [cursor=pointer]:
+              - radio "Cuadrático" [ref=f8e257]
+              - paragraph [ref=f8e261]: Cuadrático
+        - generic [ref=f8e265]:
+          - paragraph [ref=f8e269]: Superficie a estimar (m²)
+          - generic [ref=f8e271]:
+            - spinbutton "Superficie a estimar (m²)" [ref=f8e272]: "120.00"
+            - generic [ref=f8e273]:
+              - button "Decrement" [ref=f8e274] [cursor=pointer]
+              - button "Increment" [ref=f8e277] [cursor=pointer]
+      - figure "Animación del ajuste con observaciones incorporadas progresivamente" [ref=f8e282]:
+        - generic [ref=f8e285]:
+          - img:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: "50"
+                  - generic: "100"
+                  - generic: "150"
+                  - generic: "200"
+                - generic:
+                  - generic: 0.4M
+                  - generic: 0.6M
+                  - generic: 0.8M
+                  - generic: 1M
+          - img:
+            - generic:
+              - generic [ref=f8e302]:
+                - generic [ref=f8e303]:
+                  - generic [ref=f8e304]: Datos incluidos
+                  - generic [ref=f8e309] [cursor=pointer]
+                - generic [ref=f8e310]:
+                  - generic [ref=f8e311]: Ajuste recalculado
+                  - generic [ref=f8e312] [cursor=pointer]
+              - generic:
+                - generic:
+                  - generic: "Estado: 3 viviendas"
+                  - generic:
+                    - generic: 3 viviendas
+                    - generic: 5 viviendas
+                    - generic: 7 viviendas
+                    - generic: 9 viviendas
+                    - generic: 11 viviendas
+                    - generic: 13 viviendas
+                    - generic: 15 viviendas
+              - generic: Superficie (m²)
+              - generic: Precio (Bs)
+            - generic [ref=f8e315] [cursor=pointer]:
+              - generic [ref=f8e316]: ▶ Reproducir
+              - generic [ref=f8e319]: Pausar
+          - toolbar [ref=f8e322]:
+            - button "Download plot as a PNG" [ref=f8e324] [cursor=pointer]
+            - generic [ref=f8e327]:
+              - button "Zoom" [ref=f8e328] [cursor=pointer]
+              - button "Pan" [ref=f8e331] [cursor=pointer]
+            - generic [ref=f8e334]:
+              - button "Zoom in" [ref=f8e335] [cursor=pointer]
+              - button "Zoom out" [ref=f8e338] [cursor=pointer]
+              - button "Autoscale" [ref=f8e341] [cursor=pointer]
+              - button "Reset axes" [ref=f8e344] [cursor=pointer]
+            - button "Fullscreen" [ref=f8e348] [cursor=pointer]
+      - generic [ref=f8e162]:
+        - generic [ref=f8e163]: Resultado con todos los datos
+        - strong [ref=f8e164]: "Precio estimado: Bs 674,924 · error típico RMSE: Bs 19,980"
+      - paragraph [ref=f8e355]: Reproduce o recorre la barra manualmente. Cada fotograma recalcula el ajuste por QR con las observaciones mostradas.

@@ -1,0 +1,233 @@
+- generic:
+  - generic [ref=f15e680]:
+    - log
+    - log
+  - generic [ref=f15e2]:
+    - list [ref=f15e10]:
+      - listitem [ref=f15e11]:
+        - link [ref=f15e730] [cursor=pointer]:
+          - /url: http://localhost:8501/
+          - paragraph [ref=f15e16]: app
+      - listitem [ref=f15e17]:
+        - link [ref=f15e731] [cursor=pointer]:
+          - /url: http://localhost:8501/regresion_qr
+          - paragraph [ref=f15e22]: regresion qr
+      - listitem [ref=f15e23]:
+        - link [ref=f15e732] [cursor=pointer]:
+          - /url: http://localhost:8501/estabilidad_numerica
+          - paragraph [ref=f15e28]: estabilidad numerica
+      - listitem [ref=f15e29]:
+        - link [ref=f15e733] [cursor=pointer]:
+          - /url: http://localhost:8501/trayectoria_proyectil
+          - paragraph [ref=f15e34]: trayectoria proyectil
+    - generic [ref=f15e3]:
+      - banner [ref=f15e38]:
+        - generic [ref=f15e41]:
+          - button "Deploy" [ref=f15e734] [cursor=pointer]
+          - button "Main menu" [ref=f15e735] [cursor=pointer]
+      - generic [ref=f15e59]:
+        - paragraph [ref=f15e64]: Laboratorio 02 · Condicionamiento
+        - heading "Estabilidad numérica · Resolución QR" [level=3] [ref=f15e736]:
+          - text: Estabilidad numérica · Resolución QR
+          - generic [ref=f15e70]:
+            - link "Link to heading":
+              - /url: "#estabilidad-numerica-resolucion-qr"
+        - generic [ref=f15e72]:
+          - paragraph [ref=f15e79]: Factorización → Qᵀy → sustitución regresiva → coeficientes
+          - button [ref=f15e737] [cursor=pointer]:
+            - generic [ref=f15e86]:
+              - generic "Apariencia y movimiento" [ref=f15e738]:
+                - paragraph [ref=f15e91]: Apariencia y movimiento
+              - generic [ref=f15e93]: expand_more
+        - generic [ref=f15e96]:
+          - button [ref=f15e739] [cursor=pointer]:
+            - generic "← Anterior" [ref=f15e740]:
+              - paragraph [ref=f15e106]: ← Anterior
+          - generic [ref=f15e107]: Resolución con QR
+          - button [ref=f15e741] [cursor=pointer]:
+            - generic "Siguiente →" [ref=f15e742]:
+              - paragraph [ref=f15e123]: Siguiente →
+          - button [ref=f15e743] [cursor=pointer]:
+            - generic [ref=f15e130]:
+              - generic "Guion" [ref=f15e744]:
+                - paragraph [ref=f15e135]: Guion
+              - generic [ref=f15e137]: expand_more
+        - generic [ref=f15e140]:
+          - paragraph [ref=f15e144]: Método QR para observar
+          - group [ref=f15e146]:
+            - combobox "Método QR para observar" [active] [ref=f15e147]: Gram-Schmidt modificado
+            - button "Open" [ref=f15e745] [cursor=pointer]
+        - generic [ref=f15e153]:
+          - generic [ref=f15e155]:
+            - button [disabled] [ref=f15e746]:
+              - generic "← Paso" [ref=f15e747]:
+                - paragraph [ref=f15e165]: ← Paso
+            - button [ref=f15e748] [cursor=pointer]:
+              - generic "▶ Reproducir" [ref=f15e749]:
+                - paragraph [ref=f15e175]: ▶ Reproducir
+            - button [ref=f15e750] [cursor=pointer]:
+              - generic "Paso →" [ref=f15e751]:
+                - paragraph [ref=f15e185]: Paso →
+            - button [ref=f15e752] [cursor=pointer]:
+              - generic "Reiniciar" [ref=f15e753]:
+                - paragraph [ref=f15e195]: Reiniciar
+          - group [ref=f15e199]:
+            - combobox "Saltar a una operación" [ref=f15e754]: 1. MGS · convertir v1 en q1
+            - button "Open" [ref=f15e755] [cursor=pointer]
+          - paragraph [ref=f15e209]: Gram-Schmidt modificado · Construir Q y R · operación 1 de 7
+          - heading "MGS · convertir v1 en q1" [level=3] [ref=f15e756]:
+            - text: MGS · convertir v1 en q1
+            - generic [ref=f15e215]:
+              - link "Link to heading":
+                - /url: "#mgs-convertir-v1-en-q1"
+          - paragraph [ref=f15e220]: Dividimos cada componente por la norma. La dirección se conserva y la longitud pasa a uno.
+          - figure "MGS · convertir v1 en q1. Dividimos cada componente por la norma. La dirección se conserva y la longitud pasa a uno." [ref=f15e759]:
+            - generic [ref=f15e762]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: −6
+                      - generic: −4
+                      - generic: −2
+                      - generic: "0"
+                      - generic: "2"
+                      - generic: "4"
+                      - generic: "6"
+                    - generic:
+                      - generic: −2
+                      - generic: −1
+                      - generic: "0"
+                      - generic: "1"
+                      - generic: "2"
+              - img:
+                - generic:
+                  - generic [ref=f15e779]:
+                    - generic [ref=f15e780]:
+                      - generic [ref=f15e781]: Antes
+                      - generic [ref=f15e786] [cursor=pointer]
+                    - generic [ref=f15e787]:
+                      - generic [ref=f15e788]: Resultado en construcción
+                      - generic [ref=f15e793] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - generic: "Estado: 0%"
+                      - generic:
+                        - generic: 0%
+                        - generic: 6%
+                        - generic: 13%
+                        - generic: 20%
+                        - generic: 27%
+                        - generic: 34%
+                        - generic: 41%
+                        - generic: 48%
+                        - generic: 55%
+                        - generic: 62%
+                        - generic: 68%
+                        - generic: 75%
+                        - generic: 82%
+                        - generic: 89%
+                        - generic: 96%
+                  - generic: Coordenada 1 en el plano activo
+                  - generic: Coordenada 2
+                - generic [ref=f15e796] [cursor=pointer]:
+                  - generic [ref=f15e797]: ▶ Animar operación
+                  - generic [ref=f15e800]: Pausar
+              - toolbar [ref=f15e803]:
+                - button "Download plot as a PNG" [ref=f15e805] [cursor=pointer]
+                - generic [ref=f15e808]:
+                  - button "Zoom" [ref=f15e809] [cursor=pointer]
+                  - button "Pan" [ref=f15e812] [cursor=pointer]
+                - generic [ref=f15e815]:
+                  - button "Zoom in" [ref=f15e816] [cursor=pointer]
+                  - button "Zoom out" [ref=f15e819] [cursor=pointer]
+                  - button "Autoscale" [ref=f15e822] [cursor=pointer]
+                  - button "Reset axes" [ref=f15e825] [cursor=pointer]
+                - button "Fullscreen" [ref=f15e829] [cursor=pointer]
+          - generic [ref=f15e342]:
+            - math [ref=f15e344]:
+              - generic [ref=f15e346]:
+                - generic [ref=f15e593]:
+                  - generic [ref=f15e594]: r
+                  - generic [ref=f15e832]:
+                    - generic [ref=f15e833]: "1"
+                    - generic [ref=f15e834]: ","
+                    - generic [ref=f15e835]: "1"
+                - generic [ref=f15e348]: =
+                - generic [ref=f15e347]: ∥
+                - generic [ref=f15e603]:
+                  - generic [ref=f15e604]: v
+                  - generic [ref=f15e836]: "1"
+                - generic [ref=f15e609]:
+                  - generic [ref=f15e610]: ∥
+                  - generic [ref=f15e837]: "2"
+                - generic [ref=f15e349]: =
+                - generic [ref=f15e350]: "1.7321"
+                - generic [ref=f15e351]: ","
+                - generic [ref=f15e838]:
+                  - generic [ref=f15e839]: q
+                  - generic [ref=f15e840]: "1"
+                - generic [ref=f15e353]: =
+                - generic [ref=f15e841]:
+                  - generic [ref=f15e842]:
+                    - generic [ref=f15e843]: "["
+                    - generic [ref=f15e844]:
+                      - generic [ref=f15e845]: "1"
+                      - generic [ref=f15e849]: "1"
+                      - generic [ref=f15e853]: "1"
+                    - generic [ref=f15e857]: "]"
+                  - generic [ref=f15e858]: "1.7321"
+                - generic [ref=f15e859]: =
+                - generic [ref=f15e860]:
+                  - generic [ref=f15e861]: "["
+                  - generic [ref=f15e862]:
+                    - generic [ref=f15e863]: "0.57735"
+                    - generic [ref=f15e867]: "0.57735"
+                    - generic [ref=f15e871]: "0.57735"
+                  - generic [ref=f15e875]: "]"
+            - generic [aria-hidden] [ref=f15e400]:
+              - generic [ref=f15e401]:
+                - generic [ref=f15e612]:
+                  - text: r
+                  - generic [ref=f15e613]: 1,1
+                - text: =
+              - generic [ref=f15e402]:
+                - text: ∥
+                - generic [ref=f15e876]:
+                  - text: v
+                  - generic [ref=f15e877]: "1"
+                - generic [ref=f15e886]:
+                  - text: ∥
+                  - generic [ref=f15e887]: "2"
+                - text: =
+              - generic [ref=f15e403]:
+                - text: 1.7321,
+                - generic [ref=f15e895]:
+                  - text: q
+                  - generic [ref=f15e896]: "1"
+                - text: =
+              - generic [ref=f15e442]:
+                - generic [ref=f15e908]:
+                  - generic [ref=f15e909]: "1.7321"
+                  - generic [ref=f15e929]:
+                    - generic [ref=f15e930]: "1"
+                    - generic [ref=f15e931]: "1"
+                    - generic [ref=f15e932]: "1"
+                - text: =
+              - generic [ref=f15e968]:
+                - generic [ref=f15e969]: "0.57735"
+                - generic [ref=f15e970]: "0.57735"
+                - generic [ref=f15e971]: "0.57735"
+          - paragraph [ref=f15e989]: "Los vectores se dibujan en su propio plano mediante coordenadas ortonormales: se conservan longitudes y ángulos. La transición muestra gradualmente la operación; los extremos son los valores calculados."
+          - status [ref=f15e992]:
+            - paragraph [ref=f15e996]: "Comprobación: ||q||₂ = 1.000000."
+          - group [ref=f15e503]:
+            - generic "keyboard_arrow_right Consultar todos los valores de esta operación" [ref=f15e997] [cursor=pointer]:
+              - generic [ref=f15e505]:
+                - generic [ref=f15e506]: keyboard_arrow_right
+                - paragraph [ref=f15e510]: Consultar todos los valores de esta operación
+          - group [ref=f15e1000]:
+            - generic "keyboard_arrow_right Comprobar Q, R y el sistema triangular" [ref=f15e1001] [cursor=pointer]:
+              - generic [ref=f15e1002]:
+                - generic [ref=f15e1003]: keyboard_arrow_right
+                - paragraph [ref=f15e1007]: Comprobar Q, R y el sistema triangular

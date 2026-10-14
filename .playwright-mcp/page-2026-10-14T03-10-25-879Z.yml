@@ -1,0 +1,204 @@
+- generic:
+  - generic [ref=f15e680]:
+    - log [ref=f15e681]:
+      - generic [ref=f15e682]: 2 options available.
+    - log
+  - generic [ref=f15e2]:
+    - list [ref=f15e10]:
+      - listitem [ref=f15e11]:
+        - link [ref=f15e683] [cursor=pointer]:
+          - /url: http://localhost:8501/
+          - paragraph [ref=f15e16]: app
+      - listitem [ref=f15e17]:
+        - link [ref=f15e684] [cursor=pointer]:
+          - /url: http://localhost:8501/regresion_qr
+          - paragraph [ref=f15e22]: regresion qr
+      - listitem [ref=f15e23]:
+        - link [ref=f15e685] [cursor=pointer]:
+          - /url: http://localhost:8501/estabilidad_numerica
+          - paragraph [ref=f15e28]: estabilidad numerica
+      - listitem [ref=f15e29]:
+        - link [ref=f15e686] [cursor=pointer]:
+          - /url: http://localhost:8501/trayectoria_proyectil
+          - paragraph [ref=f15e34]: trayectoria proyectil
+    - generic [ref=f15e3]:
+      - banner [aria-hidden] [ref=f15e38]:
+        - generic [ref=f15e41]:
+          - button [ref=f15e687] [cursor=pointer]:
+            - generic [ref=f15e678]: Deploy
+          - button [ref=f15e688] [cursor=pointer]
+      - generic [ref=f15e59]:
+        - paragraph [ref=f15e64]: Laboratorio 02 · Condicionamiento
+        - heading [level=3] [ref=f15e689]:
+          - text: Estabilidad numérica · Resolución QR
+          - generic [ref=f15e70]:
+            - link:
+              - /url: "#estabilidad-numerica-resolucion-qr"
+        - generic [ref=f15e72]:
+          - paragraph [ref=f15e79]: Factorización → Qᵀy → sustitución regresiva → coeficientes
+          - button [ref=f15e690] [cursor=pointer]:
+            - generic [ref=f15e86]:
+              - paragraph [ref=f15e91]: Apariencia y movimiento
+              - generic [ref=f15e93]: expand_more
+        - generic [ref=f15e96]:
+          - button [ref=f15e692] [cursor=pointer]:
+            - paragraph [ref=f15e106]: ← Anterior
+          - generic [ref=f15e107]: Resolución con QR
+          - button [ref=f15e694] [cursor=pointer]:
+            - paragraph [ref=f15e123]: Siguiente →
+          - button [ref=f15e696] [cursor=pointer]:
+            - generic [ref=f15e130]:
+              - paragraph [ref=f15e135]: Guion
+              - generic [ref=f15e137]: expand_more
+        - generic [ref=f15e140]:
+          - paragraph [ref=f15e144]: Método QR para observar
+          - group [ref=f15e146]:
+            - combobox "Método QR para observar" [expanded] [active] [ref=f15e147]: Householder
+            - button [expanded] [aria-hidden] [ref=f15e698] [cursor=pointer]
+        - generic [ref=f15e153]:
+          - generic [ref=f15e155]:
+            - button [ref=f15e699] [cursor=pointer]:
+              - paragraph [ref=f15e165]: ← Paso
+            - button [ref=f15e701] [cursor=pointer]:
+              - paragraph [ref=f15e175]: ▶ Reproducir
+            - button [ref=f15e703] [cursor=pointer]:
+              - paragraph [ref=f15e185]: Paso →
+            - button [ref=f15e705] [cursor=pointer]:
+              - paragraph [ref=f15e195]: Reiniciar
+          - group [ref=f15e199]:
+            - combobox [ref=f15e707]: 6. Proyectar las observaciones sobre q1
+            - button [ref=f15e708] [cursor=pointer]
+          - paragraph [ref=f15e209]: Householder · Calcular Qᵀy · operación 6 de 9
+          - heading [level=3] [ref=f15e709]:
+            - text: Proyectar las observaciones sobre q1
+            - generic [ref=f15e215]:
+              - link:
+                - /url: "#proyectar-las-observaciones-sobre-q1"
+          - paragraph [ref=f15e220]: Cada barra aporta un producto qᵢ·yᵢ. La suma acumulada construye una entrada del nuevo lado derecho b=Qᵀy.
+          - figure [ref=f15e710]:
+            - generic [ref=f15e519]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: "0.5"
+                      - generic: "1"
+                      - generic: "1.5"
+                      - generic: "2"
+                      - generic: "2.5"
+                      - generic: "3"
+                      - generic: "3.5"
+                    - generic:
+                      - generic: −1
+                      - generic: −0.5
+                      - generic: "0"
+                      - generic: "0.5"
+                      - generic: "1"
+                    - generic:
+                      - generic:
+                        - generic: −1
+                        - generic: "0.25"
+                        - generic: "1.5"
+                        - generic: "2.75"
+                        - generic: "4"
+              - img:
+                - generic:
+                  - generic [ref=f15e540]:
+                    - generic [ref=f15e541]:
+                      - generic [ref=f15e542]: Productos qᵢ · yᵢ
+                      - generic [ref=f15e547] [cursor=pointer]
+                    - generic [ref=f15e548]:
+                      - generic [ref=f15e549]: Suma acumulada
+                      - generic [ref=f15e554] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - generic: "Estado: 1"
+                      - generic:
+                        - generic: "1"
+                        - generic: "2"
+                        - generic: "3"
+                  - generic: Aporte al producto escalar
+                  - generic: Observación i
+                  - generic: Suma acumulada
+                - generic [ref=f15e557] [cursor=pointer]:
+                  - generic [ref=f15e558]: ▶ Animar operación
+                  - generic [ref=f15e561]: Pausar
+              - toolbar [ref=f15e564]:
+                - button [ref=f15e711] [cursor=pointer]
+                - generic [ref=f15e569]:
+                  - button [ref=f15e712] [cursor=pointer]
+                  - button [ref=f15e713] [cursor=pointer]
+                - generic [ref=f15e576]:
+                  - button [ref=f15e714] [cursor=pointer]
+                  - button [ref=f15e715] [cursor=pointer]
+                  - button [ref=f15e716] [cursor=pointer]
+                  - button [ref=f15e717] [cursor=pointer]
+                - button [ref=f15e718] [cursor=pointer]
+          - generic [ref=f15e342]:
+            - math [ref=f15e344]:
+              - generic [ref=f15e346]:
+                - generic [ref=f15e593]:
+                  - generic [ref=f15e594]: b
+                  - generic [ref=f15e595]: "1"
+                - generic [ref=f15e348]: =
+                - generic [ref=f15e596]:
+                  - generic [ref=f15e597]: q
+                  - generic [ref=f15e598]: "1"
+                  - generic [ref=f15e599]: T
+                - generic [ref=f15e347]: "y"
+                - generic [ref=f15e349]: =
+                - generic [ref=f15e600]:
+                  - generic [ref=f15e601]: ∑
+                  - generic [ref=f15e602]: i
+                - generic [ref=f15e603]:
+                  - generic [ref=f15e604]: q
+                  - generic [ref=f15e605]:
+                    - generic [ref=f15e606]: i
+                    - generic [ref=f15e607]: ","
+                    - generic [ref=f15e608]: "1"
+                - generic [ref=f15e609]:
+                  - generic [ref=f15e610]: "y"
+                  - generic [ref=f15e611]: i
+                - generic [ref=f15e351]: =
+                - generic [ref=f15e353]: −
+                - generic [ref=f15e350]: "1.7321"
+            - generic [aria-hidden] [ref=f15e400]:
+              - generic [ref=f15e401]:
+                - generic [ref=f15e612]:
+                  - text: b
+                  - generic [ref=f15e613]: "1"
+                - text: =
+              - generic [ref=f15e402]:
+                - generic [ref=f15e622]:
+                  - text: q
+                  - generic [ref=f15e626]:
+                    - generic [ref=f15e627]: "1"
+                    - generic [ref=f15e629]: T
+                - text: y =
+              - generic [ref=f15e403]:
+                - generic [ref=f15e635]:
+                  - generic [ref=f15e636]: i
+                  - generic [ref=f15e637]: ∑
+                - generic [ref=f15e641]:
+                  - text: q
+                  - generic [ref=f15e642]: i,1
+                - generic [ref=f15e651]:
+                  - text: "y"
+                  - generic [ref=f15e652]: i
+                - text: =
+              - generic [ref=f15e442]: −1.7321
+          - status [ref=f15e661]:
+            - paragraph [ref=f15e665]: "La suma termina en -1.73205: esta es una entrada de Qᵀy."
+          - group [ref=f15e668]:
+            - generic [ref=f15e670] [cursor=pointer]:
+              - generic [ref=f15e671]: keyboard_arrow_right
+              - paragraph [ref=f15e675]: Consultar todos los valores de esta operación
+          - group [ref=f15e503]:
+            - generic [ref=f15e505] [cursor=pointer]:
+              - generic [ref=f15e506]: keyboard_arrow_right
+              - paragraph [ref=f15e510]: Comprobar Q, R y el sistema triangular
+  - generic [ref=f15e722]:
+    - listbox "Método QR para observar Open" [ref=f15e723]:
+      - option "Householder" [selected] [ref=f15e724] [cursor=pointer]
+      - option "Gram-Schmidt modificado" [ref=f15e726] [cursor=pointer]
+    - button "Dismiss" [ref=f15e729] [cursor=pointer]

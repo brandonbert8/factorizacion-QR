@@ -1,0 +1,111 @@
+- generic:
+  - generic [ref=f13e2]:
+    - list [ref=f13e10]:
+      - listitem [ref=f13e11]:
+        - link [ref=f13e13] [cursor=pointer]:
+          - /url: http://localhost:8501/
+          - paragraph [ref=f13e16]: app
+      - listitem [ref=f13e17]:
+        - link [ref=f13e19] [cursor=pointer]:
+          - /url: http://localhost:8501/regresion_qr
+          - paragraph [ref=f13e22]: regresion qr
+      - listitem [ref=f13e23]:
+        - link [ref=f13e25] [cursor=pointer]:
+          - /url: http://localhost:8501/estabilidad_numerica
+          - paragraph [ref=f13e28]: estabilidad numerica
+      - listitem [ref=f13e29]:
+        - link [ref=f13e31] [cursor=pointer]:
+          - /url: http://localhost:8501/trayectoria_proyectil
+          - paragraph [ref=f13e34]: trayectoria proyectil
+    - generic [ref=f13e3]:
+      - banner [ref=f13e38]:
+        - generic [ref=f13e41]:
+          - button "Deploy" [ref=f13e43] [cursor=pointer]
+          - button "Main menu" [ref=f13e47] [cursor=pointer]
+      - generic [ref=f13e51]:
+        - generic [ref=f13e52]: Laboratorio 01 · Mínimos cuadrados
+        - heading "Regresión inmobiliaria" [level=1] [ref=f13e61]:
+          - text: Regresión inmobiliaria
+          - generic [ref=f13e62]:
+            - link "Link to heading":
+              - /url: "#regresion-inmobiliaria"
+        - paragraph [ref=f13e67]: "De puntos medidos a un precio estimado: sigue cómo QR construye el modelo."
+        - generic [ref=f13e69]:
+          - radiogroup "Vista" [ref=f13e74]:
+            - radio [checked] [ref=f13e75] [cursor=pointer]:
+              - paragraph [ref=f13e80]: Presentar
+            - radio [ref=f13e81] [cursor=pointer]:
+              - paragraph [ref=f13e86]: Explorar
+          - button [expanded] [ref=f13e92] [cursor=pointer]:
+            - generic [ref=f13e93]:
+              - generic "Opciones" [ref=f13e94]:
+                - paragraph [ref=f13e98]: Opciones
+              - generic [ref=f13e100]: expand_less
+        - generic [ref=f13e103]:
+          - paragraph [ref=f13e106]: Escena 1 de 5 · Problema
+          - progressbar "progress" [ref=f13e107]
+        - generic [ref=f13e111]:
+          - button [disabled] [ref=f13e116]:
+            - generic "← Anterior" [ref=f13e117]:
+              - paragraph [ref=f13e121]: ← Anterior
+          - generic [ref=f13e122]: Problema
+          - button [ref=f13e133] [cursor=pointer]:
+            - generic "Siguiente →" [ref=f13e134]:
+              - paragraph [ref=f13e138]: Siguiente →
+          - button [ref=f13e144] [cursor=pointer]:
+            - generic [ref=f13e145]:
+              - generic "Guion" [ref=f13e146]:
+                - paragraph [ref=f13e150]: Guion
+              - generic [ref=f13e152]: expand_more
+        - paragraph [ref=f13e158]: Tenemos viviendas de distintas superficies y precios. Queremos una línea o curva que resuma la tendencia para estimar una vivienda nueva.
+        - generic [ref=f13e163]:
+          - generic [ref=f13e164]: Pregunta del experimento
+          - strong [ref=f13e165]: ¿Cómo encontrar una tendencia cuando las mediciones no caen sobre una línea perfecta?
+        - figure "Precio observado en función de la superficie para viviendas simuladas" [ref=f13e263]:
+          - generic [ref=f13e266]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: "40"
+                    - generic: "60"
+                    - generic: "80"
+                    - generic: "100"
+                    - generic: "120"
+                    - generic: "140"
+                    - generic: "160"
+                    - generic: "180"
+                    - generic: "200"
+                  - generic:
+                    - generic: 0.4M
+                    - generic: 0.6M
+                    - generic: 0.8M
+                    - generic: 1M
+            - img:
+              - generic:
+                - generic: Superficie (m²)
+                - generic: Precio (Bs)
+            - toolbar [ref=f13e280]:
+              - button "Download plot as a PNG" [ref=f13e282] [cursor=pointer]
+              - generic [ref=f13e285]:
+                - button "Zoom" [ref=f13e286] [cursor=pointer]
+                - button "Pan" [ref=f13e289] [cursor=pointer]
+              - generic [ref=f13e292]:
+                - button "Zoom in" [ref=f13e293] [cursor=pointer]
+                - button "Zoom out" [ref=f13e296] [cursor=pointer]
+                - button "Autoscale" [ref=f13e299] [cursor=pointer]
+                - button "Reset axes" [ref=f13e302] [cursor=pointer]
+              - button "Fullscreen" [ref=f13e306] [cursor=pointer]
+  - dialog "Opciones" [ref=f13e214]:
+    - generic [ref=f13e215]:
+      - generic [ref=f13e218] [cursor=pointer]:
+        - switch "Tema claro" [checked] [active] [ref=f13e220]
+        - generic [ref=f13e223]:
+          - paragraph [ref=f13e227]: Tema claro
+          - button "Help for Tema claro" [ref=f13e231]
+      - generic [ref=f13e237] [cursor=pointer]:
+        - switch "Reducir movimiento" [ref=f13e239]
+        - generic [ref=f13e242]:
+          - paragraph [ref=f13e246]: Reducir movimiento
+          - button "Help for Reducir movimiento" [ref=f13e250]
+      - paragraph [ref=f13e258]: Las gráficas usan color y etiquetas. Todos los controles se pueden activar con teclado.

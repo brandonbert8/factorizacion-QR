@@ -1,0 +1,241 @@
+- generic [ref=f15e2]:
+  - list [ref=f15e10]:
+    - listitem [ref=f15e11]:
+      - link [ref=f15e13] [cursor=pointer]:
+        - /url: http://localhost:8501/
+        - paragraph [ref=f15e16]: app
+    - listitem [ref=f15e17]:
+      - link [ref=f15e19] [cursor=pointer]:
+        - /url: http://localhost:8501/regresion_qr
+        - paragraph [ref=f15e22]: regresion qr
+    - listitem [ref=f15e23]:
+      - link [ref=f15e25] [cursor=pointer]:
+        - /url: http://localhost:8501/estabilidad_numerica
+        - paragraph [ref=f15e28]: estabilidad numerica
+    - listitem [ref=f15e29]:
+      - link [ref=f15e31] [cursor=pointer]:
+        - /url: http://localhost:8501/trayectoria_proyectil
+        - paragraph [ref=f15e34]: trayectoria proyectil
+  - generic [ref=f15e3]:
+    - banner [ref=f15e38]:
+      - generic [ref=f15e41]:
+        - button "Deploy" [ref=f15e51] [cursor=pointer]
+        - button "Main menu" [ref=f15e55] [cursor=pointer]
+    - generic [ref=f15e59]:
+      - paragraph [ref=f15e64]: Laboratorio 02 · Condicionamiento
+      - heading "Estabilidad numérica · Resolución QR" [level=3] [ref=f15e69]:
+        - text: Estabilidad numérica · Resolución QR
+        - generic [ref=f15e70]:
+          - link "Link to heading":
+            - /url: "#estabilidad-numerica-resolucion-qr"
+      - generic [ref=f15e72]:
+        - paragraph [ref=f15e79]: Factorización → Qᵀy → sustitución regresiva → coeficientes
+        - button [ref=f15e85] [cursor=pointer]:
+          - generic [ref=f15e86]:
+            - generic "Apariencia y movimiento" [ref=f15e87]:
+              - paragraph [ref=f15e91]: Apariencia y movimiento
+            - generic [ref=f15e93]: expand_more
+      - generic [ref=f15e96]:
+        - button [ref=f15e101] [cursor=pointer]:
+          - generic "← Anterior" [ref=f15e102]:
+            - paragraph [ref=f15e106]: ← Anterior
+        - generic [ref=f15e107]: Resolución con QR
+        - button [ref=f15e118] [cursor=pointer]:
+          - generic "Siguiente →" [ref=f15e119]:
+            - paragraph [ref=f15e123]: Siguiente →
+        - button [ref=f15e129] [cursor=pointer]:
+          - generic [ref=f15e130]:
+            - generic "Guion" [ref=f15e131]:
+              - paragraph [ref=f15e135]: Guion
+            - generic [ref=f15e137]: expand_more
+      - generic [ref=f15e140]:
+        - paragraph [ref=f15e144]: Método QR para observar
+        - group [ref=f15e146]:
+          - combobox "Método QR para observar" [ref=f15e147]: Householder
+          - button "Open" [ref=f15e148] [cursor=pointer]
+      - generic [ref=f15e153]:
+        - generic [ref=f15e155]:
+          - button [disabled] [ref=f15e160]:
+            - generic "← Paso" [ref=f15e161]:
+              - paragraph [ref=f15e165]: ← Paso
+          - button [active] [ref=f15e170] [cursor=pointer]:
+            - generic "▶ Reproducir" [ref=f15e171]:
+              - paragraph [ref=f15e175]: ▶ Reproducir
+          - button [ref=f15e180] [cursor=pointer]:
+            - generic "Paso →" [ref=f15e181]:
+              - paragraph [ref=f15e185]: Paso →
+          - button [ref=f15e190] [cursor=pointer]:
+            - generic "Reiniciar" [ref=f15e191]:
+              - paragraph [ref=f15e195]: Reiniciar
+        - group [ref=f15e199]:
+          - combobox "Saltar a una operación" [ref=f15e200]: 1. Householder · construir el espejo H1
+          - button "Open" [ref=f15e201] [cursor=pointer]
+        - paragraph [ref=f15e209]: Householder · Construir Q y R · operación 1 de 9
+        - heading "Householder · construir el espejo H1" [level=3] [ref=f15e214]:
+          - text: Householder · construir el espejo H1
+          - generic [ref=f15e215]:
+            - link "Link to heading":
+              - /url: "#householder-construir-el-espejo-h1"
+        - paragraph [ref=f15e220]: Elegimos un espejo cuya normal es v. Ese reflector lleva la subcolumna x al eje de la primera componente.
+        - iframe [ref=f15e336]:
+          - generic [ref=f16e5]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: −6
+                    - generic: −4
+                    - generic: −2
+                    - generic: "0"
+                    - generic: "2"
+                    - generic: "4"
+                    - generic: "6"
+                  - generic:
+                    - generic: −2
+                    - generic: −1
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "2"
+            - img:
+              - generic:
+                - generic [ref=f16e22]:
+                  - generic [ref=f16e23]:
+                    - generic [ref=f16e24]: Antes
+                    - generic [ref=f16e29] [cursor=pointer]
+                  - generic [ref=f16e30]:
+                    - generic [ref=f16e31]: Resultado en construcción
+                    - generic [ref=f16e36] [cursor=pointer]
+                  - generic [ref=f16e37]:
+                    - generic [ref=f16e38]: Espejo H
+                    - generic [ref=f16e39] [cursor=pointer]
+                  - generic [ref=f16e40]:
+                    - generic [ref=f16e41]: Normal v del espejo (dirección)
+                    - generic [ref=f16e46] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic: "Estado: 34%"
+                    - generic:
+                      - generic: 0%
+                      - generic: 6%
+                      - generic: 13%
+                      - generic: 20%
+                      - generic: 27%
+                      - generic: 34%
+                      - generic: 41%
+                      - generic: 48%
+                      - generic: 55%
+                      - generic: 62%
+                      - generic: 68%
+                      - generic: 75%
+                      - generic: 82%
+                      - generic: 89%
+                      - generic: 96%
+                - generic: Coordenada 1 en el plano activo
+                - generic: Coordenada 2
+              - generic [ref=f16e49] [cursor=pointer]:
+                - generic [ref=f16e50]: ▶ Animar operación
+                - generic [ref=f16e53]: Pausar
+            - toolbar [ref=f16e56]:
+              - button "Download plot as a PNG" [ref=f16e58] [cursor=pointer]
+              - generic [ref=f16e61]:
+                - button "Zoom" [ref=f16e62] [cursor=pointer]
+                - button "Pan" [ref=f16e65] [cursor=pointer]
+                - button "Box Select" [ref=f16e68] [cursor=pointer]
+                - button "Lasso Select" [ref=f16e71] [cursor=pointer]
+              - generic [ref=f16e74]:
+                - button "Zoom in" [ref=f16e75] [cursor=pointer]
+                - button "Zoom out" [ref=f16e78] [cursor=pointer]
+                - button "Autoscale" [ref=f16e81] [cursor=pointer]
+                - button "Reset axes" [ref=f16e84] [cursor=pointer]
+              - link "plotly-logomark" [ref=f16e88] [cursor=pointer]:
+                - /url: https://plotly.com/
+                - img "plotly-logomark" [ref=f16e89]
+        - generic [ref=f15e342]:
+          - math [ref=f15e344]:
+            - generic [ref=f15e346]:
+              - generic [ref=f15e347]: α
+              - generic [ref=f15e348]: =
+              - generic [ref=f15e349]: −
+              - generic [ref=f15e350]: "1.7321"
+              - generic [ref=f15e351]: ","
+              - generic [ref=f15e352]: v
+              - generic [ref=f15e353]: =
+              - generic [ref=f15e354]:
+                - generic [ref=f15e355]:
+                  - generic [ref=f15e356]: x
+                  - generic [ref=f15e357]: −
+                  - generic [ref=f15e358]: α
+                  - generic [ref=f15e359]:
+                    - generic [ref=f15e360]: e
+                    - generic [ref=f15e361]: "1"
+                - generic [ref=f15e362]:
+                  - generic [ref=f15e363]: ∥
+                  - generic [ref=f15e364]: x
+                  - generic [ref=f15e365]: −
+                  - generic [ref=f15e366]: α
+                  - generic [ref=f15e367]:
+                    - generic [ref=f15e368]: e
+                    - generic [ref=f15e369]: "1"
+                  - generic [ref=f15e370]:
+                    - generic [ref=f15e371]: ∥
+                    - generic [ref=f15e372]: "2"
+              - generic [ref=f15e373]: =
+              - generic [ref=f15e374]:
+                - generic [ref=f15e375]: "["
+                - generic [ref=f15e376]:
+                  - generic [ref=f15e377]: "0.88807"
+                  - generic [ref=f15e381]: "0.32506"
+                  - generic [ref=f15e385]: "0.32506"
+                - generic [ref=f15e389]: "]"
+              - generic [ref=f15e390]: ","
+              - generic [ref=f15e391]: H
+              - generic [ref=f15e392]: =
+              - generic [ref=f15e393]: I
+              - generic [ref=f15e394]: −
+              - generic [ref=f15e395]: "2"
+              - generic [ref=f15e396]: v
+              - generic [ref=f15e397]:
+                - generic [ref=f15e398]: v
+                - generic [ref=f15e399]: T
+          - generic [aria-hidden] [ref=f15e400]:
+            - generic [ref=f15e401]: α =
+            - generic [ref=f15e402]: −1.7321, v =
+            - generic [ref=f15e403]:
+              - generic [ref=f15e408]:
+                - generic [ref=f15e409]:
+                  - text: ∥x − α
+                  - generic [ref=f15e410]:
+                    - text: e
+                    - generic [ref=f15e411]: "1"
+                  - generic [ref=f15e419]:
+                    - text: ∥
+                    - generic [ref=f15e420]: "2"
+                - generic [ref=f15e429]:
+                  - text: x − α
+                  - generic [ref=f15e430]:
+                    - text: e
+                    - generic [ref=f15e431]: "1"
+              - text: =
+            - generic [ref=f15e442]:
+              - generic [ref=f15e460]:
+                - generic [ref=f15e461]: "0.88807"
+                - generic [ref=f15e462]: "0.32506"
+                - generic [ref=f15e463]: "0.32506"
+              - text: ", H ="
+            - generic [ref=f15e478]: I −
+            - generic [ref=f15e479]:
+              - text: 2v
+              - generic [ref=f15e480]:
+                - text: v
+                - generic [ref=f15e481]: T
+        - paragraph [ref=f15e490]: "Los vectores se dibujan en su propio plano mediante coordenadas ortonormales: se conservan longitudes y ángulos. La transición muestra gradualmente la operación; los extremos son los valores calculados."
+        - group [ref=f15e493]:
+          - generic "keyboard_arrow_right Consultar todos los valores de esta operación" [ref=f15e494] [cursor=pointer]:
+            - generic [ref=f15e495]:
+              - generic [ref=f15e496]: keyboard_arrow_right
+              - paragraph [ref=f15e500]: Consultar todos los valores de esta operación
+        - group [ref=f15e503]:
+          - generic "keyboard_arrow_right Comprobar Q, R y el sistema triangular" [ref=f15e504] [cursor=pointer]:
+            - generic [ref=f15e505]:
+              - generic [ref=f15e506]: keyboard_arrow_right
+              - paragraph [ref=f15e510]: Comprobar Q, R y el sistema triangular

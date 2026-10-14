@@ -1,0 +1,368 @@
+- generic:
+  - generic [ref=f13e2]:
+    - generic [ref=f13e7]:
+      - list [ref=f13e10]:
+        - listitem [ref=f13e11]:
+          - link [ref=f13e13] [cursor=pointer]:
+            - /url: http://localhost:8501/
+            - paragraph [ref=f13e16]: app
+        - listitem [ref=f13e17]:
+          - link [ref=f13e19] [cursor=pointer]:
+            - /url: http://localhost:8501/regresion_qr
+            - paragraph [ref=f13e22]: regresion qr
+        - listitem [ref=f13e23]:
+          - link [ref=f13e25] [cursor=pointer]:
+            - /url: http://localhost:8501/estabilidad_numerica
+            - paragraph [ref=f13e28]: estabilidad numerica
+        - listitem [ref=f13e29]:
+          - link [ref=f13e31] [cursor=pointer]:
+            - /url: http://localhost:8501/trayectoria_proyectil
+            - paragraph [ref=f13e34]: trayectoria proyectil
+      - generic [ref=f13e311]:
+        - heading "Diseño del experimento" [level=2] [ref=f13e315]
+        - generic [ref=f13e318]:
+          - paragraph [ref=f13e322]: Observaciones simuladas
+          - group "Observaciones simuladas" [ref=f13e323]:
+            - generic [ref=f13e324]:
+              - generic [ref=f13e325]:
+                - slider "Observaciones simuladas Observaciones simuladas" [ref=f13e327]: "16"
+                - generic:
+                  - generic:
+                    - paragraph: "16"
+              - generic:
+                - generic:
+                  - paragraph: "5"
+                - generic:
+                  - paragraph: "40"
+        - generic [ref=f13e330]:
+          - paragraph [ref=f13e334]: Ruido experimental (Bs)
+          - group "Ruido experimental (Bs)" [ref=f13e335]:
+            - generic [ref=f13e336]:
+              - generic [ref=f13e337]:
+                - slider "Ruido experimental (Bs) Ruido experimental (Bs)" [ref=f13e339]: "25000"
+                - generic:
+                  - generic:
+                    - paragraph: "25000"
+              - generic:
+                - generic:
+                  - paragraph: "0"
+                - generic:
+                  - paragraph: "120000"
+        - button [ref=f13e342] [cursor=pointer]:
+          - paragraph [ref=f13e347]: Generar nuevas observaciones
+        - generic [ref=f13e349]:
+          - paragraph [ref=f13e353]: Modelo
+          - radiogroup "Modelo" [ref=f13e354]:
+            - generic [ref=f13e356] [cursor=pointer]:
+              - radio "Lineal" [checked] [ref=f13e358]
+              - paragraph [ref=f13e363]: Lineal
+            - generic [ref=f13e365] [cursor=pointer]:
+              - radio "Cuadrático" [ref=f13e367]
+              - paragraph [ref=f13e371]: Cuadrático
+        - generic [ref=f13e373]:
+          - paragraph [ref=f13e377]: Algoritmo QR
+          - group [ref=f13e379]:
+            - combobox "Algoritmo QR" [ref=f13e380]: Householder
+            - button "Open" [ref=f13e381] [cursor=pointer]
+        - generic [ref=f13e386]:
+          - paragraph [ref=f13e390]: Superficie a estimar (m²)
+          - generic [ref=f13e392]:
+            - spinbutton "Superficie a estimar (m²)" [ref=f13e393]: "120.00"
+            - generic [ref=f13e394]:
+              - button "Decrement" [ref=f13e395] [cursor=pointer]
+              - button "Increment" [ref=f13e398] [cursor=pointer]
+    - generic [ref=f13e3]:
+      - banner [ref=f13e38]:
+        - generic [ref=f13e41]:
+          - generic [ref=f13e402]:
+            - generic [ref=f13e403]: info
+            - generic [ref=f13e405]: File change.
+            - button "Rerun" [ref=f13e407] [cursor=pointer]
+            - button "Always rerun" [ref=f13e410] [cursor=pointer]
+          - button "Main menu" [ref=f13e47] [cursor=pointer]
+      - generic [ref=f13e51]:
+        - generic [ref=f13e52]: Laboratorio 01 · Mínimos cuadrados
+        - heading "Regresión inmobiliaria" [level=1] [ref=f13e61]:
+          - text: Regresión inmobiliaria
+          - generic [ref=f13e62]:
+            - link "Link to heading":
+              - /url: "#regresion-inmobiliaria"
+        - paragraph [ref=f13e67]: "De puntos medidos a un precio estimado: sigue cómo QR construye el modelo."
+        - generic [ref=f13e69]:
+          - radiogroup "Vista" [ref=f13e74]:
+            - radio [ref=f13e75] [cursor=pointer]:
+              - paragraph [ref=f13e80]: Presentar
+            - radio [checked] [active] [ref=f13e81] [cursor=pointer]:
+              - paragraph [ref=f13e86]: Explorar
+          - button [expanded] [ref=f13e92] [cursor=pointer]:
+            - generic [ref=f13e93]:
+              - generic "Opciones" [ref=f13e94]:
+                - paragraph [ref=f13e98]: Opciones
+              - generic [ref=f13e100]: expand_less
+        - paragraph [ref=f13e415]: Modo libre · cambia los datos, inspecciona matrices y descarga resultados.
+        - heading "Problema y objetivo" [level=3] [ref=f13e421]:
+          - text: Problema y objetivo
+          - generic [ref=f13e422]:
+            - link "Link to heading":
+              - /url: "#problema-y-objetivo"
+        - paragraph [ref=f13e158]: "Estimamos los coeficientes que minimizan la suma de cuadrados de los residuos. La superficie es una sola variable explicativa: este ejemplo no constituye una tasación inmobiliaria real."
+        - generic [ref=f13e424]:
+          - math [ref=f13e426]:
+            - generic [ref=f13e428]:
+              - generic [ref=f13e429]: A
+              - generic [ref=f13e430]: β
+              - generic [ref=f13e431]: ≈
+              - generic [ref=f13e432]: "y"
+              - generic [ref=f13e433]: ","
+              - generic [ref=f13e434]: A
+              - generic [ref=f13e435]: =
+              - generic [ref=f13e436]: "["
+              - generic [ref=f13e437]: "1"
+              - generic [ref=f13e438]: ","
+              - generic [ref=f13e439]:
+                - generic [ref=f13e440]: x
+                - generic [ref=f13e441]: i
+              - generic [ref=f13e442]: "]"
+              - generic [ref=f13e443]: o
+              - generic [ref=f13e444]: "["
+              - generic [ref=f13e445]: "1"
+              - generic [ref=f13e446]: ","
+              - generic [ref=f13e447]:
+                - generic [ref=f13e448]: x
+                - generic [ref=f13e449]: i
+              - generic [ref=f13e450]: ","
+              - generic [ref=f13e451]:
+                - generic [ref=f13e452]: x
+                - generic [ref=f13e453]: i
+                - generic [ref=f13e454]: "2"
+              - generic [ref=f13e455]: "]"
+              - generic [ref=f13e456]: ","
+              - generic [ref=f13e457]: R
+              - generic [ref=f13e458]: β
+              - generic [ref=f13e459]: =
+              - generic [ref=f13e460]:
+                - generic [ref=f13e461]: Q
+                - generic [ref=f13e462]: T
+              - generic [ref=f13e463]: "y"
+          - generic [aria-hidden] [ref=f13e464]:
+            - generic [ref=f13e465]: Aβ ≈
+            - generic [ref=f13e466]: y, A =
+            - generic [ref=f13e467]:
+              - text: "[1,"
+              - generic [ref=f13e468]:
+                - text: x
+                - generic [ref=f13e469]: i
+              - text: "]o[1,"
+              - generic [ref=f13e479]:
+                - text: x
+                - generic [ref=f13e480]: i
+              - text: ","
+              - generic [ref=f13e488]:
+                - text: x
+                - generic [ref=f13e492]:
+                  - generic [ref=f13e493]: i
+                  - generic [ref=f13e494]: "2"
+              - text: "], Rβ ="
+            - generic [ref=f13e498]:
+              - generic [ref=f13e499]:
+                - text: Q
+                - generic [ref=f13e500]: T
+              - text: "y"
+        - paragraph [ref=f13e509]: El modelo cuadrático añade una columna x². Puede reducir residuos, pero aumenta la complejidad y puede ser más sensible al ruido o extrapolar mal.
+        - heading "Datos de entrada" [level=3] [ref=f13e514]:
+          - text: Datos de entrada
+          - generic [ref=f13e515]:
+            - link "Link to heading":
+              - /url: "#datos-de-entrada"
+        - generic [ref=f13e517]:
+          - paragraph [ref=f13e521]: Importar CSV con columnas superficie_m2 y precio_bob
+          - region "Importar CSV con columnas superficie_m2 y precio_bob" [ref=f13e522] [cursor=pointer]:
+            - button "file upload"
+            - button "upload Upload" [ref=f13e524]:
+              - generic [ref=f13e526]:
+                - generic [ref=f13e527]: upload
+                - paragraph [ref=f13e531]: Upload
+            - generic [ref=f13e532]: 200MB per file • CSV
+        - paragraph [ref=f13e539]: Datos sintéticos simulados. El generador usa una semilla visible para reproducir el experimento.
+        - paragraph [ref=f13e544]: "Semilla: 7"
+        - generic [ref=f13e549]:
+          - button "Add row" [ref=f13e552] [cursor=pointer]
+          - button "Show/hide columns" [ref=f13e559] [cursor=pointer]
+          - button "Download as CSV" [ref=f13e565] [cursor=pointer]
+          - button "Search" [ref=f13e571] [cursor=pointer]
+          - button "Fullscreen" [ref=f13e577] [cursor=pointer]
+        - heading "Ejecución y resultados" [level=3] [ref=f13e593]:
+          - text: Ejecución y resultados
+          - generic [ref=f13e594]:
+            - link "Link to heading":
+              - /url: "#ejecucion-y-resultados"
+        - generic [ref=f13e596]:
+          - generic [ref=f13e601]:
+            - paragraph [ref=f13e605]: Precio estimado
+            - paragraph [ref=f13e608]: Bs 674,924
+          - generic [ref=f13e613]:
+            - paragraph [ref=f13e617]: RMSE
+            - paragraph [ref=f13e620]: Bs 19,980.4
+          - generic [ref=f13e625]:
+            - paragraph [ref=f13e629]: MSE
+            - paragraph [ref=f13e632]: "3.99e+08"
+          - generic [ref=f13e637]:
+            - paragraph [ref=f13e641]: R²
+            - paragraph [ref=f13e644]: "0.9931"
+          - generic [ref=f13e649]:
+            - paragraph [ref=f13e653]: κ(A)
+            - paragraph [ref=f13e656]: "4.37e+02"
+        - generic [ref=f13e658]:
+          - generic [ref=f13e666]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: "50"
+                    - generic: "100"
+                    - generic: "150"
+                    - generic: "200"
+                  - generic:
+                    - generic: 0.3M
+                    - generic: 0.4M
+                    - generic: 0.5M
+                    - generic: 0.6M
+                    - generic: 0.7M
+                    - generic: 0.8M
+                    - generic: 0.9M
+                    - generic: 1M
+                    - generic: 1.1M
+            - img:
+              - generic:
+                - generic [ref=f13e683]:
+                  - generic [ref=f13e684]:
+                    - generic [ref=f13e685]: Observaciones
+                    - generic [ref=f13e690] [cursor=pointer]
+                  - generic [ref=f13e691]:
+                    - generic [ref=f13e692]: Ajuste QR
+                    - generic [ref=f13e693] [cursor=pointer]
+                  - generic [ref=f13e694]:
+                    - generic [ref=f13e695]: Estimación
+                    - generic [ref=f13e700] [cursor=pointer]
+                - generic: Superficie (m²)
+                - generic: Precio (Bs)
+            - toolbar [ref=f13e701]:
+              - button "Download plot as a PNG" [ref=f13e703] [cursor=pointer]
+              - generic [ref=f13e706]:
+                - button "Zoom" [ref=f13e707] [cursor=pointer]
+                - button "Pan" [ref=f13e710] [cursor=pointer]
+              - generic [ref=f13e713]:
+                - button "Zoom in" [ref=f13e714] [cursor=pointer]
+                - button "Zoom out" [ref=f13e717] [cursor=pointer]
+                - button "Autoscale" [ref=f13e720] [cursor=pointer]
+                - button "Reset axes" [ref=f13e723] [cursor=pointer]
+              - button "Fullscreen" [ref=f13e727] [cursor=pointer]
+          - generic [ref=f13e737]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: "50"
+                    - generic: "100"
+                    - generic: "150"
+                    - generic: "200"
+                  - generic:
+                    - generic: −40k
+                    - generic: −30k
+                    - generic: −20k
+                    - generic: −10k
+                    - generic: "0"
+                    - generic: 10k
+                    - generic: 20k
+                    - generic: 30k
+            - img:
+              - generic:
+                - generic: Superficie (m²)
+                - generic: Observado − ajustado (Bs)
+            - toolbar [ref=f13e751]:
+              - button "Download plot as a PNG" [ref=f13e753] [cursor=pointer]
+              - generic [ref=f13e756]:
+                - button "Zoom" [ref=f13e757] [cursor=pointer]
+                - button "Pan" [ref=f13e760] [cursor=pointer]
+              - generic [ref=f13e763]:
+                - button "Zoom in" [ref=f13e764] [cursor=pointer]
+                - button "Zoom out" [ref=f13e767] [cursor=pointer]
+                - button "Autoscale" [ref=f13e770] [cursor=pointer]
+                - button "Reset axes" [ref=f13e773] [cursor=pointer]
+              - button "Fullscreen" [ref=f13e777] [cursor=pointer]
+        - heading "Coeficientes y comparación" [level=3] [ref=f13e784]:
+          - text: Coeficientes y comparación
+          - generic [ref=f13e785]:
+            - link "Link to heading":
+              - /url: "#coeficientes-y-comparacion"
+        - generic [ref=f13e790]:
+          - button "Show/hide columns" [ref=f13e794] [cursor=pointer]
+          - button "Download as CSV" [ref=f13e800] [cursor=pointer]
+          - button "Search" [ref=f13e806] [cursor=pointer]
+          - button "Fullscreen" [ref=f13e812] [cursor=pointer]
+        - generic [ref=f13e829]:
+          - math [ref=f13e831]:
+            - generic [ref=f13e833]:
+              - generic [ref=f13e834]: p
+              - generic [ref=f13e835]: (
+              - generic [ref=f13e836]: x
+              - generic [ref=f13e837]: )
+              - generic [ref=f13e838]: =
+              - generic [ref=f13e839]: "5218.11"
+              - generic [ref=f13e840]: x
+              - generic [ref=f13e841]: +
+              - generic [ref=f13e842]: "48750.8"
+          - generic [aria-hidden] [ref=f13e843]:
+            - generic [ref=f13e844]: p(x) =
+            - generic [ref=f13e845]: 5218.11x +
+            - generic [ref=f13e846]: "48750.8"
+        - generic [ref=f13e851]:
+          - button "Show/hide columns" [ref=f13e855] [cursor=pointer]
+          - button "Download as CSV" [ref=f13e861] [cursor=pointer]
+          - button "Search" [ref=f13e867] [cursor=pointer]
+          - button "Fullscreen" [ref=f13e873] [cursor=pointer]
+        - group [ref=f13e887]:
+          - generic "keyboard_arrow_right Sistema resuelto" [ref=f13e888] [cursor=pointer]:
+            - generic [ref=f13e889]:
+              - generic [ref=f13e890]: keyboard_arrow_right
+              - paragraph [ref=f13e894]: Sistema resuelto
+        - group [ref=f13e897]:
+          - generic "keyboard_arrow_right Matrices y verificación QR" [ref=f13e898] [cursor=pointer]:
+            - generic [ref=f13e899]:
+              - generic [ref=f13e900]: keyboard_arrow_right
+              - paragraph [ref=f13e904]: Matrices y verificación QR
+        - group [ref=f13e907]:
+          - generic "keyboard_arrow_right Procedimiento paso a paso" [ref=f13e908] [cursor=pointer]:
+            - generic [ref=f13e909]:
+              - generic [ref=f13e910]: keyboard_arrow_right
+              - paragraph [ref=f13e914]: Procedimiento paso a paso
+        - heading "Interpretación y reto" [level=3] [ref=f13e919]:
+          - text: Interpretación y reto
+          - generic [ref=f13e920]:
+            - link "Link to heading":
+              - /url: "#interpretacion-y-reto"
+        - paragraph [ref=f13e925]: El modelo de grado 1 produce RMSE de Bs 19,980.4. El error QR de reconstrucción es 1.59e-16; los residuos muestran la diferencia entre cada precio observado y el modelo. Las predicciones fuera del rango de superficies medidas requieren especial cautela.
+        - status [ref=f13e928]:
+          - paragraph [ref=f13e932]: "Reto: aumenta el ruido y cambia a modelo cuadrático. ¿Se reduce el error de entrenamiento a costa de una curva menos estable?"
+        - heading "Exportar experimento" [level=3] [ref=f13e937]:
+          - text: Exportar experimento
+          - generic [ref=f13e938]:
+            - link "Link to heading":
+              - /url: "#exportar-experimento"
+        - button [ref=f13e941] [cursor=pointer]:
+          - paragraph [ref=f13e946]: Descargar resultados CSV
+        - button [ref=f13e949] [cursor=pointer]:
+          - paragraph [ref=f13e954]: Descargar reporte HTML
+  - dialog "Opciones" [ref=f13e214]:
+    - generic [ref=f13e215]:
+      - generic [ref=f13e218] [cursor=pointer]:
+        - switch "Tema claro" [checked] [ref=f13e220]
+        - generic [ref=f13e223]:
+          - paragraph [ref=f13e227]: Tema claro
+          - button "Help for Tema claro" [ref=f13e231]
+      - generic [ref=f13e237] [cursor=pointer]:
+        - switch "Reducir movimiento" [ref=f13e239]
+        - generic [ref=f13e242]:
+          - paragraph [ref=f13e246]: Reducir movimiento
+          - button "Help for Reducir movimiento" [ref=f13e250]
+      - paragraph [ref=f13e258]: Las gráficas usan color y etiquetas. Todos los controles se pueden activar con teclado.

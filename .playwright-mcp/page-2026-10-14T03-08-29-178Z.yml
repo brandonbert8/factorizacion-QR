@@ -1,0 +1,127 @@
+- generic [ref=f15e2]:
+  - list [ref=f15e10]:
+    - listitem [ref=f15e11]:
+      - link [ref=f15e13] [cursor=pointer]:
+        - /url: http://localhost:8501/
+        - paragraph [ref=f15e16]: app
+    - listitem [ref=f15e17]:
+      - link [ref=f15e19] [cursor=pointer]:
+        - /url: http://localhost:8501/regresion_qr
+        - paragraph [ref=f15e22]: regresion qr
+    - listitem [ref=f15e23]:
+      - link [ref=f15e25] [cursor=pointer]:
+        - /url: http://localhost:8501/estabilidad_numerica
+        - paragraph [ref=f15e28]: estabilidad numerica
+    - listitem [ref=f15e29]:
+      - link [ref=f15e31] [cursor=pointer]:
+        - /url: http://localhost:8501/trayectoria_proyectil
+        - paragraph [ref=f15e34]: trayectoria proyectil
+  - generic [ref=f15e3]:
+    - banner [ref=f15e38]:
+      - generic [ref=f15e41]:
+        - generic [ref=f15e43]:
+          - img "Running..." [ref=f15e44]
+          - button "Stop" [ref=f15e49] [cursor=pointer]
+        - button "Deploy" [ref=f15e51] [cursor=pointer]
+        - button "Main menu" [ref=f15e55] [cursor=pointer]
+    - generic [ref=f15e59]:
+      - paragraph [ref=f15e64]: Laboratorio 02 · Condicionamiento
+      - heading "Estabilidad numérica · Resolución QR" [level=3] [ref=f15e69]:
+        - text: Estabilidad numérica · Resolución QR
+        - generic [ref=f15e70]:
+          - link "Link to heading":
+            - /url: "#estabilidad-numerica-resolucion-qr"
+      - generic [ref=f15e72]:
+        - paragraph [ref=f15e79]: Factorización → Qᵀy → sustitución regresiva → coeficientes
+        - button [ref=f15e85] [cursor=pointer]:
+          - generic [ref=f15e86]:
+            - generic "Apariencia y movimiento" [ref=f15e87]:
+              - paragraph [ref=f15e91]: Apariencia y movimiento
+            - generic [ref=f15e93]: expand_more
+      - generic [ref=f15e96]:
+        - button [ref=f15e101] [cursor=pointer]:
+          - generic "← Anterior" [ref=f15e102]:
+            - paragraph [ref=f15e106]: ← Anterior
+        - generic [ref=f15e107]: Resolución con QR
+        - button [ref=f15e118] [cursor=pointer]:
+          - generic "Siguiente →" [ref=f15e119]:
+            - paragraph [ref=f15e123]: Siguiente →
+        - button [ref=f15e129] [cursor=pointer]:
+          - generic [ref=f15e130]:
+            - generic "Guion" [ref=f15e131]:
+              - paragraph [ref=f15e135]: Guion
+            - generic [ref=f15e137]: expand_more
+      - generic [ref=f15e140]:
+        - paragraph [ref=f15e144]: Método QR para observar
+        - group [ref=f15e146]:
+          - combobox "Método QR para observar" [ref=f15e147]: Householder
+          - button "Open" [ref=f15e148] [cursor=pointer]
+      - generic [ref=f15e153]:
+        - generic [ref=f15e155]:
+          - button [disabled] [ref=f15e160]:
+            - generic "← Paso" [ref=f15e161]:
+              - paragraph [ref=f15e165]: ← Paso
+          - button [ref=f15e170] [cursor=pointer]:
+            - generic "▶ Reproducir" [ref=f15e171]:
+              - paragraph [ref=f15e175]: ▶ Reproducir
+          - button [ref=f15e180] [cursor=pointer]:
+            - generic "Paso →" [ref=f15e181]:
+              - paragraph [ref=f15e185]: Paso →
+          - button [ref=f15e190] [cursor=pointer]:
+            - generic "Reiniciar" [ref=f15e191]:
+              - paragraph [ref=f15e195]: Reiniciar
+        - group [ref=f15e199]:
+          - combobox "Saltar a una operación" [ref=f15e200]: 1. Householder · construir el espejo H1
+          - button "Open" [ref=f15e201] [cursor=pointer]
+        - paragraph [ref=f15e209]: Householder · Construir Q y R · operación 1 de 9
+        - heading "Householder · construir el espejo H1" [level=3] [ref=f15e214]:
+          - text: Householder · construir el espejo H1
+          - generic [ref=f15e215]:
+            - link "Link to heading":
+              - /url: "#householder-construir-el-espejo-h1"
+        - paragraph [ref=f15e220]: Elegimos un espejo cuya normal es v. Ese reflector lleva la subcolumna x al eje de la primera componente.
+      - paragraph [ref=f15e225]: Un equipo mide un sistema cuyas dos columnas contienen casi la misma información. Queremos saber cuánto confiar en los coeficientes recuperados.
+      - generic [ref=f15e231]:
+        - math [ref=f15e233]:
+          - generic [ref=f15e235]:
+            - generic [ref=f15e236]:
+              - generic [ref=f15e237]: A
+              - generic [ref=f15e238]: ε
+            - generic [ref=f15e239]: =
+            - generic [ref=f15e240]:
+              - generic [ref=f15e241]: "["
+              - generic [ref=f15e242]:
+                - generic [ref=f15e243]:
+                  - generic [ref=f15e244]: "1"
+                  - generic [ref=f15e247]: "1"
+                - generic [ref=f15e250]:
+                  - generic [ref=f15e251]: "1"
+                  - generic [ref=f15e256]:
+                    - generic [ref=f15e257]: "1"
+                    - generic [ref=f15e258]: +
+                    - generic [ref=f15e259]: ε
+                - generic [ref=f15e260]:
+                  - generic [ref=f15e261]: "1"
+                  - generic [ref=f15e266]:
+                    - generic [ref=f15e267]: "1"
+                    - generic [ref=f15e268]: −
+                    - generic [ref=f15e269]: ε
+              - generic [ref=f15e270]: "]"
+        - generic [aria-hidden] [ref=f15e271]:
+          - generic [ref=f15e272]:
+            - generic [ref=f15e273]:
+              - text: A
+              - generic [ref=f15e274]: ε
+            - text: =
+          - generic [ref=f15e296]:
+            - generic [ref=f15e300]:
+              - generic [ref=f15e301]: "1"
+              - generic [ref=f15e302]: "1"
+              - generic [ref=f15e303]: "1"
+            - generic [ref=f15e310]:
+              - generic [ref=f15e311]: "1"
+              - generic [ref=f15e312]: 1 + ε
+              - generic [ref=f15e313]: 1 − ε
+      - generic [ref=f15e332]:
+        - generic [ref=f15e333]: Pregunta del experimento
+        - strong [ref=f15e334]: ¿Puede una QR precisa producir una solución sensible al ruido?

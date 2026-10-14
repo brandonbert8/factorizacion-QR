@@ -1,0 +1,290 @@
+- generic:
+  - generic [ref=f15e680]:
+    - log
+    - log
+  - generic [ref=f15e2]:
+    - list [ref=f15e10]:
+      - listitem [ref=f15e11]:
+        - link [ref=f15e730] [cursor=pointer]:
+          - /url: http://localhost:8501/
+          - paragraph [ref=f15e16]: app
+      - listitem [ref=f15e17]:
+        - link [ref=f15e731] [cursor=pointer]:
+          - /url: http://localhost:8501/regresion_qr
+          - paragraph [ref=f15e22]: regresion qr
+      - listitem [ref=f15e23]:
+        - link [ref=f15e732] [cursor=pointer]:
+          - /url: http://localhost:8501/estabilidad_numerica
+          - paragraph [ref=f15e28]: estabilidad numerica
+      - listitem [ref=f15e29]:
+        - link [ref=f15e733] [cursor=pointer]:
+          - /url: http://localhost:8501/trayectoria_proyectil
+          - paragraph [ref=f15e34]: trayectoria proyectil
+    - generic [ref=f15e3]:
+      - banner [ref=f15e38]:
+        - generic [ref=f15e41]:
+          - button "Deploy" [ref=f15e734] [cursor=pointer]
+          - button "Main menu" [ref=f15e735] [cursor=pointer]
+      - generic [ref=f15e59]:
+        - paragraph [ref=f15e64]: Laboratorio 02 · Condicionamiento
+        - heading "Estabilidad numérica · Resolución QR" [level=3] [ref=f15e736]:
+          - text: Estabilidad numérica · Resolución QR
+          - generic [ref=f15e70]:
+            - link "Link to heading":
+              - /url: "#estabilidad-numerica-resolucion-qr"
+        - generic [ref=f15e72]:
+          - paragraph [ref=f15e79]: Factorización → Qᵀy → sustitución regresiva → coeficientes
+          - button [ref=f15e737] [cursor=pointer]:
+            - generic [ref=f15e86]:
+              - generic "Apariencia y movimiento" [ref=f15e738]:
+                - paragraph [ref=f15e91]: Apariencia y movimiento
+              - generic [ref=f15e93]: expand_more
+        - generic [ref=f15e96]:
+          - button [ref=f15e739] [cursor=pointer]:
+            - generic "← Anterior" [ref=f15e740]:
+              - paragraph [ref=f15e106]: ← Anterior
+          - generic [ref=f15e107]: Resolución con QR
+          - button [ref=f15e741] [cursor=pointer]:
+            - generic "Siguiente →" [ref=f15e742]:
+              - paragraph [ref=f15e123]: Siguiente →
+          - button [ref=f15e743] [cursor=pointer]:
+            - generic [ref=f15e130]:
+              - generic "Guion" [ref=f15e744]:
+                - paragraph [ref=f15e135]: Guion
+              - generic [ref=f15e137]: expand_more
+        - generic [ref=f15e140]:
+          - paragraph [ref=f15e144]: Método QR para observar
+          - group [ref=f15e146]:
+            - combobox "Método QR para observar" [ref=f15e147]: Gram-Schmidt modificado
+            - button "Open" [ref=f15e745] [cursor=pointer]
+        - generic [ref=f15e153]:
+          - generic [ref=f15e155]:
+            - button [disabled] [ref=f15e746]:
+              - generic "← Paso" [ref=f15e747]:
+                - paragraph [ref=f15e165]: ← Paso
+            - button [ref=f15e748] [cursor=pointer]:
+              - generic "▶ Reproducir" [ref=f15e749]:
+                - paragraph [ref=f15e175]: ▶ Reproducir
+            - button [active] [ref=f15e750] [cursor=pointer]:
+              - generic "Paso →" [ref=f15e751]:
+                - paragraph [ref=f15e185]: Paso →
+            - button [ref=f15e752] [cursor=pointer]:
+              - generic "Reiniciar" [ref=f15e753]:
+                - paragraph [ref=f15e195]: Reiniciar
+          - group [ref=f15e199]:
+            - combobox "Saltar a una operación" [ref=f15e754]: 2. MGS · quitar de v2 la dirección q1
+            - button "Open" [ref=f15e755] [cursor=pointer]
+          - paragraph [ref=f15e209]: Gram-Schmidt modificado · Construir Q y R · operación 2 de 7
+          - heading "MGS · quitar de v2 la dirección q1" [level=3] [ref=f15e1008]:
+            - text: MGS · quitar de v2 la dirección q1
+            - generic [ref=f15e215]:
+              - link "Link to heading":
+                - /url: "#mgs-quitar-de-v2-la-direccion-q1"
+          - paragraph [ref=f15e220]: "Azul: vector original. Amarillo: componente paralela a q. Rosa: lo que queda al restarla. El residuo debe ser perpendicular a q."
+          - 'figure "MGS · quitar de v2 la dirección q1. Azul: vector original. Amarillo: componente paralela a q. Rosa: lo que queda al restarla. El residuo debe ser perpendicular a q." [ref=f15e1011]':
+            - generic [ref=f15e1014]:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: −6
+                      - generic: −4
+                      - generic: −2
+                      - generic: "0"
+                      - generic: "2"
+                      - generic: "4"
+                      - generic: "6"
+                    - generic:
+                      - generic: −2
+                      - generic: −1
+                      - generic: "0"
+                      - generic: "1"
+                      - generic: "2"
+              - img:
+                - generic:
+                  - generic [ref=f15e1031]:
+                    - generic [ref=f15e1032]:
+                      - generic [ref=f15e1033]: Antes
+                      - generic [ref=f15e1038] [cursor=pointer]
+                    - generic [ref=f15e1039]:
+                      - generic [ref=f15e1040]: Resultado en construcción
+                      - generic [ref=f15e1045] [cursor=pointer]
+                    - generic [ref=f15e1046]:
+                      - generic [ref=f15e1047]: Proyección que se resta
+                      - generic [ref=f15e1052] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - generic: "Estado: 0%"
+                      - generic:
+                        - generic: 0%
+                        - generic: 6%
+                        - generic: 13%
+                        - generic: 20%
+                        - generic: 27%
+                        - generic: 34%
+                        - generic: 41%
+                        - generic: 48%
+                        - generic: 55%
+                        - generic: 62%
+                        - generic: 68%
+                        - generic: 75%
+                        - generic: 82%
+                        - generic: 89%
+                        - generic: 96%
+                  - generic: Coordenada 1 en el plano activo
+                  - generic: Coordenada 2
+                - generic [ref=f15e1055] [cursor=pointer]:
+                  - generic [ref=f15e1056]: ▶ Animar operación
+                  - generic [ref=f15e1059]: Pausar
+              - toolbar [ref=f15e1062]:
+                - button "Download plot as a PNG" [ref=f15e1064] [cursor=pointer]
+                - generic [ref=f15e1067]:
+                  - button "Zoom" [ref=f15e1068] [cursor=pointer]
+                  - button "Pan" [ref=f15e1071] [cursor=pointer]
+                - generic [ref=f15e1074]:
+                  - button "Zoom in" [ref=f15e1075] [cursor=pointer]
+                  - button "Zoom out" [ref=f15e1078] [cursor=pointer]
+                  - button "Autoscale" [ref=f15e1081] [cursor=pointer]
+                  - button "Reset axes" [ref=f15e1084] [cursor=pointer]
+                - button "Fullscreen" [ref=f15e1088] [cursor=pointer]
+          - generic [ref=f15e342]:
+            - math [ref=f15e344]:
+              - generic [ref=f15e346]:
+                - generic [ref=f15e593]:
+                  - generic [ref=f15e594]: r
+                  - generic [ref=f15e832]:
+                    - generic [ref=f15e833]: "1"
+                    - generic [ref=f15e834]: ","
+                    - generic [ref=f15e835]: "2"
+                - generic [ref=f15e348]: =
+                - generic [ref=f15e1091]:
+                  - generic [ref=f15e1092]: q
+                  - generic [ref=f15e1093]: "1"
+                  - generic [ref=f15e1094]: T
+                - generic [ref=f15e603]:
+                  - generic [ref=f15e604]: v
+                  - generic [ref=f15e836]: "2"
+                - generic [ref=f15e349]: =
+                - generic [ref=f15e350]: "1.7321"
+                - generic [ref=f15e351]: ","
+                - generic [ref=f15e1095]:
+                  - generic [ref=f15e1096]: v
+                  - generic [ref=f15e1097]: "2"
+                  - generic [ref=f15e1098]:
+                    - generic [ref=f15e1099]: "n"
+                    - generic [ref=f15e1100]: u
+                    - generic [ref=f15e1101]: e
+                    - generic [ref=f15e1102]: v
+                    - generic [ref=f15e1103]: o
+                - generic [ref=f15e353]: =
+                - generic [ref=f15e860]:
+                  - generic [ref=f15e861]: "["
+                  - generic [ref=f15e862]:
+                    - generic [ref=f15e863]: "1"
+                    - generic [ref=f15e867]: "1"
+                    - generic [ref=f15e871]: "1"
+                  - generic [ref=f15e875]: "]"
+                - generic [ref=f15e859]: −
+                - generic [ref=f15e1104]:
+                  - generic [ref=f15e1105]: "["
+                  - generic [ref=f15e1106]:
+                    - generic [ref=f15e1107]: "1"
+                    - generic [ref=f15e1111]: "1"
+                    - generic [ref=f15e1115]: "1"
+                  - generic [ref=f15e1119]: "]"
+                - generic [ref=f15e1120]: =
+                - generic [ref=f15e1121]:
+                  - generic [ref=f15e1122]: "["
+                  - generic [ref=f15e1123]:
+                    - generic [ref=f15e1127]:
+                      - generic [ref=f15e1128]: −
+                      - generic [ref=f15e1129]: "2.2204"
+                      - generic [ref=f15e1130]: ×
+                      - generic [ref=f15e1131]:
+                        - generic [ref=f15e1132]: "10"
+                        - generic [ref=f15e1133]:
+                          - generic [ref=f15e1134]: −
+                          - generic [ref=f15e1135]: "16"
+                    - generic [ref=f15e1139]:
+                      - generic [ref=f15e1140]: "1"
+                      - generic [ref=f15e1141]: ×
+                      - generic [ref=f15e1142]:
+                        - generic [ref=f15e1143]: "10"
+                        - generic [ref=f15e1144]:
+                          - generic [ref=f15e1145]: −
+                          - generic [ref=f15e1146]: "6"
+                    - generic [ref=f15e1150]:
+                      - generic [ref=f15e1151]: −
+                      - generic [ref=f15e1152]: "1"
+                      - generic [ref=f15e1153]: ×
+                      - generic [ref=f15e1154]:
+                        - generic [ref=f15e1155]: "10"
+                        - generic [ref=f15e1156]:
+                          - generic [ref=f15e1157]: −
+                          - generic [ref=f15e1158]: "6"
+                  - generic [ref=f15e1159]: "]"
+            - generic [aria-hidden] [ref=f15e400]:
+              - generic [ref=f15e401]:
+                - generic [ref=f15e612]:
+                  - text: r
+                  - generic [ref=f15e613]: 1,2
+                - text: =
+              - generic [ref=f15e402]:
+                - generic [ref=f15e622]:
+                  - text: q
+                  - generic [ref=f15e1163]:
+                    - generic [ref=f15e1164]: "1"
+                    - generic [ref=f15e1166]: T
+                - generic [ref=f15e876]:
+                  - text: v
+                  - generic [ref=f15e877]: "2"
+                - text: =
+              - generic [ref=f15e403]:
+                - text: 1.7321,
+                - generic [ref=f15e895]:
+                  - text: v
+                  - generic [ref=f15e899]:
+                    - generic [ref=f15e900]: "2"
+                    - generic [ref=f15e1170]: nuevo
+                - text: =
+              - generic [ref=f15e442]:
+                - generic [ref=f15e1184]:
+                  - generic [ref=f15e1185]: "1"
+                  - generic [ref=f15e1186]: "1"
+                  - generic [ref=f15e1187]: "1"
+                - text: −
+              - generic [ref=f15e950]:
+                - generic [ref=f15e968]:
+                  - generic [ref=f15e969]: "1"
+                  - generic [ref=f15e970]: "1"
+                  - generic [ref=f15e971]: "1"
+                - text: =
+              - generic [ref=f15e1219]:
+                - generic [ref=f15e1220]:
+                  - text: −2.2204 × 1
+                  - generic [ref=f15e1221]:
+                    - text: "0"
+                    - generic [ref=f15e1222]: −16
+                - generic [ref=f15e1228]:
+                  - text: 1 × 1
+                  - generic [ref=f15e1229]:
+                    - text: "0"
+                    - generic [ref=f15e1230]: −6
+                - generic [ref=f15e1236]:
+                  - text: −1 × 1
+                  - generic [ref=f15e1237]:
+                    - text: "0"
+                    - generic [ref=f15e1238]: −6
+          - paragraph [ref=f15e989]: "Los vectores se dibujan en su propio plano mediante coordenadas ortonormales: se conservan longitudes y ángulos. La transición muestra gradualmente la operación; los extremos son los valores calculados."
+          - status [ref=f15e992]:
+            - paragraph [ref=f15e996]: "Comprobación: qᵀ · residuo = -4.487e-16 ≈ 0."
+          - group [ref=f15e503]:
+            - generic "keyboard_arrow_right Consultar todos los valores de esta operación" [ref=f15e997] [cursor=pointer]:
+              - generic [ref=f15e505]:
+                - generic [ref=f15e506]: keyboard_arrow_right
+                - paragraph [ref=f15e510]: Consultar todos los valores de esta operación
+          - group [ref=f15e1000]:
+            - generic "keyboard_arrow_right Comprobar Q, R y el sistema triangular" [ref=f15e1001] [cursor=pointer]:
+              - generic [ref=f15e1002]:
+                - generic [ref=f15e1003]: keyboard_arrow_right
+                - paragraph [ref=f15e1007]: Comprobar Q, R y el sistema triangular

@@ -1,0 +1,117 @@
+- generic [ref=f8e2]:
+  - generic [ref=f8e6]:
+    - generic:
+      - list:
+        - listitem:
+          - link [ref=f8e7] [cursor=pointer]:
+            - /url: http://localhost:8501/
+            - paragraph [ref=f8e8]: app
+        - listitem:
+          - link [ref=f8e9] [cursor=pointer]:
+            - /url: http://localhost:8501/regresion_qr
+            - paragraph [ref=f8e10]: regresion qr
+        - listitem:
+          - link [ref=f8e11] [cursor=pointer]:
+            - /url: http://localhost:8501/estabilidad_numerica
+            - paragraph [ref=f8e12]: estabilidad numerica
+        - listitem:
+          - link [ref=f8e13] [cursor=pointer]:
+            - /url: http://localhost:8501/trayectoria_proyectil
+            - paragraph [ref=f8e14]: trayectoria proyectil
+  - generic [ref=f8e3]:
+    - banner [ref=f8e17]:
+      - generic [ref=f8e19]:
+        - button "keyboard_double_arrow_right" [ref=f8e22] [cursor=pointer]
+        - generic [ref=f8e25]:
+          - button "Deploy" [ref=f8e27] [cursor=pointer]
+          - button "Main menu" [ref=f8e31] [cursor=pointer]
+    - generic [ref=f8e35]:
+      - generic [ref=f8e36]: Laboratorio 01 · Mínimos cuadrados
+      - heading "Regresión inmobiliaria" [level=1] [ref=f8e45]:
+        - text: Regresión inmobiliaria
+        - generic [ref=f8e46]:
+          - link "Link to heading":
+            - /url: "#regresion-inmobiliaria"
+      - paragraph [ref=f8e51]: "De puntos medidos a un precio estimado: sigue cómo QR construye el modelo."
+      - generic [ref=f8e53]:
+        - radiogroup "Vista" [ref=f8e58]:
+          - radio [checked] [ref=f8e59] [cursor=pointer]:
+            - paragraph [ref=f8e64]: Presentar
+          - radio [ref=f8e65] [cursor=pointer]:
+            - paragraph [ref=f8e70]: Explorar
+        - button [ref=f8e76] [cursor=pointer]:
+          - generic [ref=f8e77]:
+            - generic "Opciones" [ref=f8e78]:
+              - paragraph [ref=f8e82]: Opciones
+            - generic [ref=f8e84]: expand_more
+      - generic [ref=f8e87]:
+        - paragraph [ref=f8e90]: Escena 2 de 5 · Datos
+        - progressbar "progress" [ref=f8e91]
+      - generic [ref=f8e95]:
+        - button [ref=f8e100] [cursor=pointer]:
+          - generic "← Anterior" [ref=f8e101]:
+            - paragraph [ref=f8e105]: ← Anterior
+        - generic [ref=f8e106]: Datos
+        - button [active] [ref=f8e117] [cursor=pointer]:
+          - generic "Siguiente →" [ref=f8e118]:
+            - paragraph [ref=f8e122]: Siguiente →
+        - button [ref=f8e128] [cursor=pointer]:
+          - generic [ref=f8e129]:
+            - generic "Guion" [ref=f8e130]:
+              - paragraph [ref=f8e134]: Guion
+            - generic [ref=f8e136]: expand_more
+      - generic [ref=f8e140]:
+        - paragraph [ref=f8e144]: ¿Cuántas viviendas observamos?
+        - group "¿Cuántas viviendas observamos?" [ref=f8e145]:
+          - generic [ref=f8e146]:
+            - generic [ref=f8e147]:
+              - slider "¿Cuántas viviendas observamos? ¿Cuántas viviendas observamos?" [ref=f8e149]: "16"
+              - generic:
+                - generic:
+                  - paragraph: "16"
+            - generic:
+              - generic:
+                - paragraph: "5"
+              - generic:
+                - paragraph: "40"
+      - button [ref=f8e152] [cursor=pointer]:
+        - paragraph [ref=f8e157]: Generar otro conjunto simulado
+      - generic [ref=f8e162]:
+        - generic [ref=f8e163]: Qué representan los puntos
+        - strong [ref=f8e164]: 16 viviendas simuladas · superficie en m² · precio en bolivianos
+      - figure "Nube de observaciones simuladas" [ref=f8e167]:
+        - generic [ref=f8e170]:
+          - img:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: "40"
+                  - generic: "60"
+                  - generic: "80"
+                  - generic: "100"
+                  - generic: "120"
+                  - generic: "140"
+                  - generic: "160"
+                  - generic: "180"
+                  - generic: "200"
+                - generic:
+                  - generic: 0.4M
+                  - generic: 0.6M
+                  - generic: 0.8M
+                  - generic: 1M
+          - img:
+            - generic:
+              - generic: Superficie (m²)
+              - generic: Precio (Bs)
+          - toolbar [ref=f8e184]:
+            - button "Download plot as a PNG" [ref=f8e186] [cursor=pointer]
+            - generic [ref=f8e189]:
+              - button "Zoom" [ref=f8e190] [cursor=pointer]
+              - button "Pan" [ref=f8e193] [cursor=pointer]
+            - generic [ref=f8e196]:
+              - button "Zoom in" [ref=f8e197] [cursor=pointer]
+              - button "Zoom out" [ref=f8e200] [cursor=pointer]
+              - button "Autoscale" [ref=f8e203] [cursor=pointer]
+              - button "Reset axes" [ref=f8e206] [cursor=pointer]
+            - button "Fullscreen" [ref=f8e210] [cursor=pointer]
+      - paragraph [ref=f8e217]: "Semilla reproducible: 7. Puedes importar o editar datos en Explorar."

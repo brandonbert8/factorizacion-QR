@@ -1,0 +1,167 @@
+- generic [ref=f10e2]:
+  - generic [ref=f10e6]:
+    - generic:
+      - list:
+        - listitem:
+          - link [ref=f10e7] [cursor=pointer]:
+            - /url: http://localhost:8501/
+            - paragraph [ref=f10e8]: app
+        - listitem:
+          - link [ref=f10e9] [cursor=pointer]:
+            - /url: http://localhost:8501/regresion_qr
+            - paragraph [ref=f10e10]: regresion qr
+        - listitem:
+          - link [ref=f10e11] [cursor=pointer]:
+            - /url: http://localhost:8501/estabilidad_numerica
+            - paragraph [ref=f10e12]: estabilidad numerica
+        - listitem:
+          - link [ref=f10e13] [cursor=pointer]:
+            - /url: http://localhost:8501/trayectoria_proyectil
+            - paragraph [ref=f10e14]: trayectoria proyectil
+  - generic [ref=f10e3]:
+    - banner [ref=f10e17]:
+      - generic [ref=f10e19]:
+        - button "keyboard_double_arrow_right" [ref=f10e22] [cursor=pointer]
+        - generic [ref=f10e25]:
+          - button "Deploy" [ref=f10e27] [cursor=pointer]
+          - button "Main menu" [ref=f10e31] [cursor=pointer]
+    - generic [ref=f10e35]:
+      - generic [ref=f10e36]: Laboratorio 03 · Física experimental
+      - heading "Projectile Mission Control" [level=1] [ref=f10e45]:
+        - text: Projectile Mission Control
+        - generic [ref=f10e46]:
+          - link "Link to heading":
+            - /url: "#projectile-mission-control"
+      - paragraph [ref=f10e51]: De mediciones dispersas a una trayectoria física reconstruida con QR.
+      - generic [ref=f10e53]:
+        - radiogroup "Vista" [ref=f10e58]:
+          - radio [checked] [ref=f10e59] [cursor=pointer]:
+            - paragraph [ref=f10e64]: Presentar
+          - radio [ref=f10e65] [cursor=pointer]:
+            - paragraph [ref=f10e70]: Explorar
+        - button [ref=f10e76] [cursor=pointer]:
+          - generic [ref=f10e77]:
+            - generic "Opciones" [ref=f10e78]:
+              - paragraph [ref=f10e82]: Opciones
+            - generic [ref=f10e84]: expand_more
+      - generic [ref=f10e87]:
+        - paragraph [ref=f10e90]: Escena 2 de 5 · Datos
+        - progressbar "progress" [ref=f10e91]
+      - generic [ref=f10e95]:
+        - button [ref=f10e100] [cursor=pointer]:
+          - generic "← Anterior" [ref=f10e101]:
+            - paragraph [ref=f10e105]: ← Anterior
+        - generic [ref=f10e106]: Datos
+        - button [active] [ref=f10e117] [cursor=pointer]:
+          - generic "Siguiente →" [ref=f10e118]:
+            - paragraph [ref=f10e122]: Siguiente →
+        - button [ref=f10e128] [cursor=pointer]:
+          - generic [ref=f10e129]:
+            - generic "Guion" [ref=f10e130]:
+              - paragraph [ref=f10e134]: Guion
+            - generic [ref=f10e136]: expand_more
+      - generic [ref=f10e139]:
+        - generic [ref=f10e144]:
+          - paragraph [ref=f10e148]: Velocidad inicial (m/s)
+          - group "Velocidad inicial (m/s)" [ref=f10e149]:
+            - generic [ref=f10e150]:
+              - generic [ref=f10e151]:
+                - slider "Velocidad inicial (m/s) Velocidad inicial (m/s)" [ref=f10e153]: "35"
+                - generic:
+                  - generic:
+                    - paragraph: "35.00"
+              - generic:
+                - generic:
+                  - paragraph: "5.00"
+                - generic:
+                  - paragraph: "100.00"
+        - generic [ref=f10e158]:
+          - paragraph [ref=f10e162]: Ángulo (°)
+          - group "Ángulo (°)" [ref=f10e163]:
+            - generic [ref=f10e164]:
+              - generic [ref=f10e165]:
+                - slider "Ángulo (°) Ángulo (°)" [ref=f10e167]: "42"
+                - generic:
+                  - generic:
+                    - paragraph: "42.00"
+              - generic:
+                - generic:
+                  - paragraph: "5.00"
+                - generic:
+                  - paragraph: "85.00"
+        - generic [ref=f10e172]:
+          - paragraph [ref=f10e176]: Altura inicial (m)
+          - group "Altura inicial (m)" [ref=f10e177]:
+            - generic [ref=f10e178]:
+              - generic [ref=f10e179]:
+                - slider "Altura inicial (m) Altura inicial (m)" [ref=f10e181]: "3"
+                - generic:
+                  - generic:
+                    - paragraph: "3.00"
+              - generic:
+                - generic:
+                  - paragraph: "0.00"
+                - generic:
+                  - paragraph: "80.00"
+      - generic [ref=f10e184]:
+        - paragraph [ref=f10e188]: Mediciones
+        - group "Mediciones" [ref=f10e189]:
+          - generic [ref=f10e190]:
+            - generic [ref=f10e191]:
+              - slider "Mediciones Mediciones" [ref=f10e193]: "14"
+              - generic:
+                - generic:
+                  - paragraph: "14"
+            - generic:
+              - generic:
+                - paragraph: "4"
+              - generic:
+                - paragraph: "60"
+      - button [ref=f10e196] [cursor=pointer]:
+        - paragraph [ref=f10e201]: Generar otro conjunto de mediciones
+      - figure "Mediciones ruidosas alrededor de la trayectoria ideal" [ref=f10e204]:
+        - generic [ref=f10e207]:
+          - img:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: "0"
+                  - generic: "20"
+                  - generic: "40"
+                  - generic: "60"
+                  - generic: "80"
+                  - generic: "100"
+                  - generic: "120"
+                - generic:
+                  - generic: "0"
+                  - generic: "5"
+                  - generic: "10"
+                  - generic: "15"
+                  - generic: "20"
+                  - generic: "25"
+                  - generic: "30"
+          - img:
+            - generic:
+              - generic [ref=f10e224]:
+                - generic [ref=f10e225]:
+                  - generic [ref=f10e226]: Movimiento ideal simulado
+                  - generic [ref=f10e227] [cursor=pointer]
+                - generic [ref=f10e228]:
+                  - generic [ref=f10e229]: Mediciones con ruido
+                  - generic [ref=f10e234] [cursor=pointer]
+              - generic: Distancia horizontal (m)
+              - generic: Altura (m)
+          - toolbar [ref=f10e235]:
+            - button "Download plot as a PNG" [ref=f10e237] [cursor=pointer]
+            - generic [ref=f10e240]:
+              - button "Zoom" [ref=f10e241] [cursor=pointer]
+              - button "Pan" [ref=f10e244] [cursor=pointer]
+            - generic [ref=f10e247]:
+              - button "Zoom in" [ref=f10e248] [cursor=pointer]
+              - button "Zoom out" [ref=f10e251] [cursor=pointer]
+              - button "Autoscale" [ref=f10e254] [cursor=pointer]
+              - button "Reset axes" [ref=f10e257] [cursor=pointer]
+            - button "Fullscreen" [ref=f10e261] [cursor=pointer]
+      - generic [ref=f10e268]:
+        - generic [ref=f10e269]: Datos conocidos en la simulación
+        - strong [ref=f10e270]: v₀=35.0 m/s · θ=42° · 14 mediciones

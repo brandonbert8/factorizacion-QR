@@ -1,0 +1,10 @@
+[     488ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/regresion_qr/_stcore/health:0
+[     491ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/regresion_qr/_stcore/host-config:0
+[   48105ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/estabilidad_numerica/_stcore/health:0
+[   48105ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/estabilidad_numerica/_stcore/host-config:0
+[   52486ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/trayectoria_proyectil/_stcore/health:0
+[   52491ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/trayectoria_proyectil/_stcore/host-config:0
+[   70105ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/estabilidad_numerica/_stcore/health:0
+[   70105ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/estabilidad_numerica/_stcore/host-config:0
+[   74784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/trayectoria_proyectil/_stcore/host-config:0
+[   74784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/trayectoria_proyectil/_stcore/health:0

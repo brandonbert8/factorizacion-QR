@@ -1,0 +1,228 @@
+- generic [ref=f9e2]:
+  - generic [ref=f9e6]:
+    - generic:
+      - list:
+        - listitem:
+          - link [ref=f9e7] [cursor=pointer]:
+            - /url: http://localhost:8501/
+            - paragraph [ref=f9e8]: app
+        - listitem:
+          - link [ref=f9e9] [cursor=pointer]:
+            - /url: http://localhost:8501/regresion_qr
+            - paragraph [ref=f9e10]: regresion qr
+        - listitem:
+          - link [ref=f9e11] [cursor=pointer]:
+            - /url: http://localhost:8501/estabilidad_numerica
+            - paragraph [ref=f9e12]: estabilidad numerica
+        - listitem:
+          - link [ref=f9e13] [cursor=pointer]:
+            - /url: http://localhost:8501/trayectoria_proyectil
+            - paragraph [ref=f9e14]: trayectoria proyectil
+  - generic [ref=f9e3]:
+    - banner [ref=f9e17]:
+      - generic [ref=f9e19]:
+        - button "keyboard_double_arrow_right" [ref=f9e22] [cursor=pointer]
+        - generic [ref=f9e25]:
+          - button "Deploy" [ref=f9e27] [cursor=pointer]
+          - button "Main menu" [ref=f9e31] [cursor=pointer]
+    - generic [ref=f9e35]:
+      - generic [ref=f9e36]: Laboratorio 01 · Mínimos cuadrados
+      - heading "Regresión inmobiliaria" [level=1] [ref=f9e45]:
+        - text: Regresión inmobiliaria
+        - generic [ref=f9e46]:
+          - link "Link to heading":
+            - /url: "#regresion-inmobiliaria"
+      - paragraph [ref=f9e51]: "De puntos medidos a un precio estimado: sigue cómo QR construye el modelo."
+      - generic [ref=f9e53]:
+        - radiogroup "Vista" [ref=f9e58]:
+          - radio [checked] [ref=f9e59] [cursor=pointer]:
+            - paragraph [ref=f9e64]: Presentar
+          - radio [ref=f9e65] [cursor=pointer]:
+            - paragraph [ref=f9e70]: Explorar
+        - button [ref=f9e76] [cursor=pointer]:
+          - generic [ref=f9e77]:
+            - generic "Opciones" [ref=f9e78]:
+              - paragraph [ref=f9e82]: Opciones
+            - generic [ref=f9e84]: expand_more
+      - generic [ref=f9e87]:
+        - paragraph [ref=f9e90]: Escena 4 de 5 · QR en acción
+        - progressbar "progress" [ref=f9e91]
+      - generic [ref=f9e95]:
+        - button [ref=f9e100] [cursor=pointer]:
+          - generic "← Anterior" [ref=f9e101]:
+            - paragraph [ref=f9e105]: ← Anterior
+        - generic [ref=f9e106]: QR en acción
+        - button [ref=f9e117] [cursor=pointer]:
+          - generic "Siguiente →" [ref=f9e118]:
+            - paragraph [ref=f9e122]: Siguiente →
+        - button [ref=f9e128] [cursor=pointer]:
+          - generic [ref=f9e129]:
+            - generic "Guion" [ref=f9e130]:
+              - paragraph [ref=f9e134]: Guion
+            - generic [ref=f9e136]: expand_more
+      - generic [ref=f9e357]:
+        - paragraph [ref=f9e361]: Método QR para observar
+        - group [ref=f9e363]:
+          - combobox "Método QR para observar" [ref=f9e364]: Householder
+          - button "Open" [ref=f9e365] [cursor=pointer]
+      - paragraph [ref=f9e373]: La matriz A reúne una columna de unos y otra de superficies; el modelo cuadrático agrega x². QR separa A en Q y R y permite resolver los coeficientes.
+      - generic [ref=f9e375]:
+        - math [ref=f9e377]:
+          - generic [ref=f9e379]:
+            - generic [ref=f9e380]: A
+            - generic [ref=f9e381]: =
+            - generic [ref=f9e382]: Q
+            - generic [ref=f9e383]: R
+            - generic [ref=f9e384]: ","
+            - generic [ref=f9e385]: R
+            - generic [ref=f9e386]: β
+            - generic [ref=f9e387]: =
+            - generic [ref=f9e388]:
+              - generic [ref=f9e389]: Q
+              - generic [ref=f9e390]: T
+            - generic [ref=f9e391]: "y"
+        - generic [aria-hidden] [ref=f9e392]:
+          - generic [ref=f9e393]: A =
+          - generic [ref=f9e394]: QR, Rβ =
+          - generic [ref=f9e395]:
+            - generic [ref=f9e396]:
+              - text: Q
+              - generic [ref=f9e397]: T
+            - text: "y"
+      - generic [ref=f9e403]:
+        - generic [ref=f9e405]:
+          - button [ref=f9e410] [cursor=pointer]:
+            - generic "← Paso" [ref=f9e411]:
+              - paragraph [ref=f9e415]: ← Paso
+          - button [active] [ref=f9e550] [cursor=pointer]:
+            - generic "Pausar" [ref=f9e551]:
+              - paragraph [ref=f9e425]: Pausar
+          - button [ref=f9e430] [cursor=pointer]:
+            - generic "Paso →" [ref=f9e431]:
+              - paragraph [ref=f9e435]: Paso →
+          - button [ref=f9e440] [cursor=pointer]:
+            - generic "Reiniciar" [ref=f9e441]:
+              - paragraph [ref=f9e445]: Reiniciar
+        - generic [ref=f9e448]:
+          - paragraph [ref=f9e452]: Recorrer operaciones
+          - group "Recorrer operaciones" [ref=f9e453]:
+            - generic [ref=f9e454]:
+              - generic [ref=f9e455]:
+                - slider "Recorrer operaciones Recorrer operaciones" [ref=f9e457]: "1"
+                - generic:
+                  - generic:
+                    - paragraph: "1"
+              - generic:
+                - generic:
+                  - paragraph: "0"
+                - generic:
+                  - paragraph: "3"
+        - paragraph [ref=f9e462]: Operación 2 de 4 · iteración 1
+        - heading "Reflector 1" [level=3] [ref=f9e552]:
+          - text: Reflector 1
+          - generic [ref=f9e468]:
+            - link "Link to heading":
+              - /url: "#reflector-1"
+        - figure "Reflector 1. La transformación anula las entradas bajo la diagonal de la columna resaltada." [ref=f9e555]:
+          - generic [ref=f9e558]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: "0"
+                    - generic: "1"
+                  - generic:
+                    - generic: "15"
+                    - generic: "14"
+                    - generic: "13"
+                    - generic: "12"
+                    - generic: "11"
+                    - generic: "10"
+                    - generic: "9"
+                    - generic: "8"
+                    - generic: "7"
+                    - generic: "6"
+                    - generic: "5"
+                    - generic: "4"
+                    - generic: "3"
+                    - generic: "2"
+                    - generic: "1"
+                    - generic: "0"
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: −400
+                    - generic: −200
+                    - generic: "0"
+                    - generic: "200"
+                    - generic: "400"
+                  - generic: Valor
+                - generic: R en construcción
+                - generic: Columna
+                - generic: Fila
+            - toolbar [ref=f9e572]:
+              - button "Download plot as a PNG" [ref=f9e574] [cursor=pointer]
+              - generic [ref=f9e577]:
+                - button "Zoom" [ref=f9e578] [cursor=pointer]
+                - button "Pan" [ref=f9e581] [cursor=pointer]
+              - generic [ref=f9e584]:
+                - button "Zoom in" [ref=f9e585] [cursor=pointer]
+                - button "Zoom out" [ref=f9e588] [cursor=pointer]
+                - button "Autoscale" [ref=f9e591] [cursor=pointer]
+                - button "Reset axes" [ref=f9e594] [cursor=pointer]
+              - button "Fullscreen" [ref=f9e598] [cursor=pointer]
+        - generic [ref=f9e522]:
+          - math [ref=f9e524]:
+            - generic [ref=f9e526]:
+              - generic [ref=f9e601]:
+                - generic [ref=f9e602]: H
+                - generic [ref=f9e603]: k
+              - generic [ref=f9e533]: =
+              - generic [ref=f9e534]: I
+              - generic [ref=f9e604]: −
+              - generic [ref=f9e605]: "2"
+              - generic [ref=f9e606]:
+                - generic [ref=f9e607]: v
+                - generic [ref=f9e608]: k
+              - generic [ref=f9e609]:
+                - generic [ref=f9e610]: v
+                - generic [ref=f9e611]: k
+                - generic [ref=f9e612]: T
+              - generic [ref=f9e613]: ","
+              - generic [ref=f9e614]: R
+              - generic [ref=f9e615]: ←
+              - generic [ref=f9e616]:
+                - generic [ref=f9e617]: H
+                - generic [ref=f9e618]: k
+              - generic [ref=f9e619]: R
+          - generic [aria-hidden] [ref=f9e535]:
+            - generic [ref=f9e536]:
+              - generic [ref=f9e537]:
+                - text: H
+                - generic [ref=f9e538]: k
+              - text: =
+            - generic [ref=f9e544]: I −
+            - generic [ref=f9e623]:
+              - text: "2"
+              - generic [ref=f9e624]:
+                - text: v
+                - generic [ref=f9e625]: k
+              - generic [ref=f9e633]:
+                - text: v
+                - generic [ref=f9e637]:
+                  - generic [ref=f9e638]: k
+                  - generic [ref=f9e639]: T
+              - text: ", R ←"
+            - generic [ref=f9e643]:
+              - generic [ref=f9e644]:
+                - text: H
+                - generic [ref=f9e645]: k
+              - text: R
+        - paragraph [ref=f9e549]: La transformación anula las entradas bajo la diagonal de la columna resaltada.
+        - group [ref=f9e655]:
+          - generic "keyboard_arrow_right Ver vector utilizado" [ref=f9e656] [cursor=pointer]:
+            - generic [ref=f9e657]:
+              - generic [ref=f9e658]: keyboard_arrow_right
+              - paragraph [ref=f9e662]: Ver vector utilizado
+        - paragraph [ref=f9e667]: "Valor calculado en esta operación: -4"

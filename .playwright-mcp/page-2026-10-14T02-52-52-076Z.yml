@@ -1,0 +1,121 @@
+- generic:
+  - generic [ref=f13e2]:
+    - list [ref=f13e10]:
+      - listitem [ref=f13e11]:
+        - link [ref=f13e13] [cursor=pointer]:
+          - /url: http://localhost:8501/
+          - paragraph [ref=f13e16]: app
+      - listitem [ref=f13e17]:
+        - link [ref=f13e19] [cursor=pointer]:
+          - /url: http://localhost:8501/regresion_qr
+          - paragraph [ref=f13e22]: regresion qr
+      - listitem [ref=f13e23]:
+        - link [ref=f13e25] [cursor=pointer]:
+          - /url: http://localhost:8501/estabilidad_numerica
+          - paragraph [ref=f13e28]: estabilidad numerica
+      - listitem [ref=f13e29]:
+        - link [ref=f13e31] [cursor=pointer]:
+          - /url: http://localhost:8501/trayectoria_proyectil
+          - paragraph [ref=f13e34]: trayectoria proyectil
+    - generic [ref=f13e3]:
+      - banner [ref=f13e38]:
+        - generic [ref=f13e41]:
+          - generic [ref=f13e1238]:
+            - generic [ref=f13e1239]: info
+            - generic [ref=f13e1241]: File change.
+            - button "Rerun" [ref=f13e1243] [cursor=pointer]
+            - button "Always rerun" [ref=f13e1246] [cursor=pointer]
+          - button "Main menu" [ref=f13e47] [cursor=pointer]
+      - generic [ref=f13e51]:
+        - generic [ref=f13e963]: Laboratorio 02 · Condicionamiento
+        - heading "Estabilidad numérica" [level=1] [ref=f13e972]:
+          - text: Estabilidad numérica
+          - generic [ref=f13e973]:
+            - link "Link to heading":
+              - /url: "#estabilidad-numerica"
+        - paragraph [ref=f13e978]: Dos columnas casi iguales pueden amplificar un ruido diminuto en la solución.
+        - generic [ref=f13e980]:
+          - radiogroup "Vista" [ref=f13e985]:
+            - radio [checked] [ref=f13e986] [cursor=pointer]:
+              - paragraph [ref=f13e991]: Presentar
+            - radio [ref=f13e992] [cursor=pointer]:
+              - paragraph [ref=f13e997]: Explorar
+          - button [expanded] [ref=f13e1003] [cursor=pointer]:
+            - generic [ref=f13e1004]:
+              - generic "Opciones" [ref=f13e1005]:
+                - paragraph [ref=f13e1009]: Opciones
+              - generic [ref=f13e1190]: expand_less
+        - generic [ref=f13e1014]:
+          - paragraph [ref=f13e1017]: Escena 1 de 5 · Problema
+          - progressbar "progress" [ref=f13e1018]
+        - generic [ref=f13e1022]:
+          - button [disabled] [ref=f13e1027]:
+            - generic "← Anterior" [ref=f13e1028]:
+              - paragraph [ref=f13e1032]: ← Anterior
+          - generic [ref=f13e1033]: Problema
+          - button [ref=f13e1044] [cursor=pointer]:
+            - generic "Siguiente →" [ref=f13e1045]:
+              - paragraph [ref=f13e1049]: Siguiente →
+          - button [ref=f13e1055] [cursor=pointer]:
+            - generic [ref=f13e1056]:
+              - generic "Guion" [ref=f13e1057]:
+                - paragraph [ref=f13e1061]: Guion
+              - generic [ref=f13e1063]: expand_more
+        - paragraph [ref=f13e1069]: Un equipo mide un sistema cuyas dos columnas contienen casi la misma información. Queremos saber cuánto confiar en los coeficientes recuperados.
+        - generic [ref=f13e1075]:
+          - math [ref=f13e1077]:
+            - generic [ref=f13e1079]:
+              - generic [ref=f13e1080]:
+                - generic [ref=f13e1081]: A
+                - generic [ref=f13e1082]: ε
+              - generic [ref=f13e1083]: =
+              - generic [ref=f13e1084]:
+                - generic [ref=f13e1085]: "["
+                - generic [ref=f13e1086]:
+                  - generic [ref=f13e1087]:
+                    - generic [ref=f13e1088]: "1"
+                    - generic [ref=f13e1091]: "1"
+                  - generic [ref=f13e1094]:
+                    - generic [ref=f13e1095]: "1"
+                    - generic [ref=f13e1100]:
+                      - generic [ref=f13e1101]: "1"
+                      - generic [ref=f13e1102]: +
+                      - generic [ref=f13e1103]: ε
+                  - generic [ref=f13e1104]:
+                    - generic [ref=f13e1105]: "1"
+                    - generic [ref=f13e1110]:
+                      - generic [ref=f13e1111]: "1"
+                      - generic [ref=f13e1112]: −
+                      - generic [ref=f13e1113]: ε
+                - generic [ref=f13e1114]: "]"
+          - generic [aria-hidden] [ref=f13e1115]:
+            - generic [ref=f13e1116]:
+              - generic [ref=f13e1117]:
+                - text: A
+                - generic [ref=f13e1118]: ε
+              - text: =
+            - generic [ref=f13e1140]:
+              - generic [ref=f13e1144]:
+                - generic [ref=f13e1145]: "1"
+                - generic [ref=f13e1146]: "1"
+                - generic [ref=f13e1147]: "1"
+              - generic [ref=f13e1154]:
+                - generic [ref=f13e1155]: "1"
+                - generic [ref=f13e1156]: 1 + ε
+                - generic [ref=f13e1157]: 1 − ε
+        - generic [ref=f13e1176]:
+          - generic [ref=f13e1177]: Pregunta del experimento
+          - strong [ref=f13e1178]: ¿Puede una QR precisa producir una solución sensible al ruido?
+  - dialog "Opciones" [ref=f13e1192]:
+    - generic [ref=f13e1193]:
+      - generic [ref=f13e1196] [cursor=pointer]:
+        - switch "Tema claro" [active] [ref=f13e1198]
+        - generic [ref=f13e1201]:
+          - paragraph [ref=f13e1205]: Tema claro
+          - button "Help for Tema claro" [ref=f13e1209]
+      - generic [ref=f13e1215] [cursor=pointer]:
+        - switch "Reducir movimiento" [ref=f13e1217]
+        - generic [ref=f13e1220]:
+          - paragraph [ref=f13e1224]: Reducir movimiento
+          - button "Help for Reducir movimiento" [ref=f13e1228]
+      - paragraph [ref=f13e1236]: Las gráficas usan color y etiquetas. Todos los controles se pueden activar con teclado.
